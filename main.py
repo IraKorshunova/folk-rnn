@@ -4,6 +4,8 @@ import numpy as np
 import theano.tensor as T
 from lasagne.layers import *
 from itertools import izip
+from train_iter import TrainIterator
+
 
 start_symbol, end_symbol = '<s>', '</s>'
 batch_size = 3
@@ -33,8 +35,19 @@ print 'n tunes: ', ntunes
 
 tunes = [[token2idx[c] for c in [start_symbol] + t.split() + [end_symbol]] for t in tunes]
 tune_lens = np.array([len(t) for t in tunes])
-offsets = np.concatenate(([0], np.cumsum(tune_lens)))
+offsets = np.concatenate(([0], np.cumsum(tune_lens)[:-1]))
 max_len = max(tune_lens)
+
+print offsets
+print tune_lens
+
+
+iter = TrainIterator(offsets, tune_lens, batch_size, random_lens=False)
+
+for i in iter:
+    print i
+
+exit(0)
 
 # print [idx2token[c] for c in tunes[0]]
 # print [idx2token[c] for c in tunes[2]]
