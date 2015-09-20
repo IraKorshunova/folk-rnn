@@ -17,3 +17,7 @@ C B, C B, C E D C | B, D C B, C E G c | e g f e d e e d | c e d c B A G F | E D 
 M:6/8
 K:Cmix
 g e e c' e e | c' e e d e f | g e e c' e e | d e f e d c | g e e c' e e | c' e e d e f | g c' g a g f | e f d 2< c 2 | g e e c' e e | c' e e d e f | g e e c' e e | d e f e d c | g e e c' e e | c' e e d e f | g c' g a g f | e f d 2< c 2 |
+
+M:6/8
+K:Cmin
+E D C E G A | A G F D B, G | G F E D E F | E D C D C =B, | =A, G, C E G _A | A G F D _B, G | G F E D E F | E D 2< C 2 C | E D C E G A | A G F D B, G | G F E D E F | E D C D C =B, | =A, G, C E G _A | A G F D _B, G | G F E D E F | E D 2< C 2 C | C c c C =B C | _B C A C A G | G 2 G A G F | F D G A G F | F D c C =B C | _B C A C A G | G 2 G A G F | E D 2< C 2 C | C c c C =B C | _B C A C A G | G 2 G A G F | F D G A G F | F D c C =B C | _B C A C A G | G 2 G A G F | E D 2< C 2 C |
