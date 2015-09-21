@@ -4,7 +4,7 @@ from itertools import izip
 
 
 class DataIterator(object):
-    def __init__(self, tune_lens, tune_idxs, batch_size, random_lens=False, infinite=False):
+    def __init__(self, tune_lens, tune_idxs, batch_size, random_lens=False):
         self.batch_size = batch_size
         self.ntunes = len(tune_lens)
         self.tune_idxs = tune_idxs
@@ -17,35 +17,15 @@ class DataIterator(object):
             self.len2idx[k].append(v)
 
         self.random_lens = random_lens
-        self.infinite = infinite
         self.rng = np.random.RandomState(42)
 
     def __iter__(self):
-        # iterator = self.__iter_random_lens() if self.random_lens else self.__iter_homogeneous_lens()
-        # if self.infinite:
-        #     while True:
-        #         for batch_offsets in iterator:
-        #             yield batch_offsets
-        # else:
-        #     for batch_offsets in iterator:
-        #             yield batch_offsets
-
         if self.random_lens:
-            if self.infinite:
-                while True:
-                    for batch_offsets in self.__iter_random_lens():
-                        yield batch_offsets
-            else:
-                 for batch_offsets in self.__iter_random_lens():
-                        yield batch_offsets
+            for batch_offsets in self.__iter_random_lens():
+                yield batch_offsets
         else:
-            if self.infinite:
-                while True:
-                    for batch_offsets in self.__iter_homogeneous_lens():
-                        yield batch_offsets
-            else:
-                for batch_offsets in self.__iter_homogeneous_lens():
-                        yield batch_offsets
+            for batch_offsets in self.__iter_homogeneous_lens():
+                yield batch_offsets
 
     def __iter_random_lens(self):
         available_idxs = np.copy(self.tune_idxs)
@@ -68,7 +48,7 @@ class DataIterator(object):
         k = get_tune_len()
 
         while available_lengths:
-            batch_idxs.extend(self.len2idx[k][progress[k]:progress[k]+b_size])
+            batch_idxs.extend(self.len2idx[k][progress[k]:progress[k] + b_size])
             progress[k] += b_size
             if len(batch_idxs) == self.batch_size:
                 yield batch_idxs

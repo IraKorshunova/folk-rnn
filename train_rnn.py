@@ -125,8 +125,8 @@ updates = lasagne.updates.rmsprop(loss, all_params, config.learning_rate)
 train = theano.function([idxs], loss, updates=updates)
 validate = theano.function([idxs], loss)
 
-train_data_iter = DataIterator(tune_lens[train_idxs], train_idxs, config.batch_size, random_lens=False, infinite=True)
-valid_data_iter = DataIterator(tune_lens[valid_idxs], valid_idxs, config.batch_size, random_lens=False, infinite=False)
+train_data_iterator = DataIterator(tune_lens[train_idxs], train_idxs, config.batch_size, random_lens=False)
+valid_data_iterator = DataIterator(tune_lens[valid_idxs], valid_idxs, config.batch_size, random_lens=False)
 
 print 'Train model'
 train_batches_per_epoch = ntrain_tunes / config.batch_size
@@ -136,47 +136,53 @@ losses_train = []
 nvalid_batches = nvalid_tunes / config.batch_size
 losses_eval_valid = []
 
+niter = 1
 prev_time = time.time()
 
-for niter, batch_idxs in enumerate(train_data_iter, 1):
-    train_loss = train(np.int32(batch_idxs))
-    iter_time = time.time() - prev_time
-    grad_param_norm = 0
-    epoch = niter / float(train_batches_per_epoch)
-    print '%d/%d (epoch %.3f) train_loss=%6.8f  grad/param_norm=%6.4e time/batch=%.2fs' % (
-        niter, max_niter, epoch, train_loss, grad_param_norm, iter_time)
+for epoch in xrange(config.max_epoch):
+    for train_batch_idxs in train_data_iterator:
+        train_loss = train(np.int32(train_batch_idxs))
+        iter_time = time.time() - prev_time
 
-    prev_time = iter_time
-    losses_train.append(train_loss)
+        grad_param_norm = 0
+        print epoch
+        print train_batch_idxs
+        print '%d/%d (epoch %.3f) train_loss=%6.8f  grad/param_norm=%6.4e time/batch=%.2fs' % (
+            niter, max_niter, niter / float(train_batches_per_epoch), train_loss, grad_param_norm, iter_time)
 
-    if niter % config.validate_every == 0:
-        print 'Validating'
-        avg_valid_loss = 0
-        for valid_batch_idx in valid_data_iter:
-            avg_valid_loss += validate(valid_batch_idx)
-        avg_valid_loss /= nvalid_batches
-        losses_eval_valid.append(avg_valid_loss)
-        print "    loss:\t%.6f" % avg_valid_loss
-        print
+        prev_time = iter_time
+        losses_train.append(train_loss)
+        niter += 1
 
-    if float.is_integer(epoch) and epoch > config.learning_rate_decay_after:
-        new_learning_rate = np.float32(learning_rate.get_value() * config.learning_rate_decay)
-        learning_rate.set_value(new_learning_rate)
-        print 'setting learning rate to %.7f' % new_learning_rate
+        if niter % config.validate_every == 0:
+            print 'Validating'
+            avg_valid_loss = 0
+            for valid_batch_idx in valid_data_iterator:
+                print valid_batch_idx
+                avg_valid_loss += validate(valid_batch_idx)
+            avg_valid_loss /= nvalid_batches
+            losses_eval_valid.append(avg_valid_loss)
+            print "    loss:\t%.6f" % avg_valid_loss
+            print
 
-    if epoch % config.save_every == 0:
-        with open(metadata_target_path, 'w') as f:
-            pickle.dump({
-                'configuration': config_name,
-                'experiment_id': experiment_id,
-                'epoch_since_start': epoch,
-                'losses_train': losses_train,
-                'losses_eval_valid': losses_eval_valid,
-                # 'losses_eval_train': losses_eval_train,
-                'param_values': lasagne.layers.get_all_param_values(l_out),
-            }, f, pickle.HIGHEST_PROTOCOL)
+        if epoch > config.learning_rate_decay_after:
+            new_learning_rate = np.float32(learning_rate.get_value() * config.learning_rate_decay)
+            learning_rate.set_value(new_learning_rate)
+            print 'setting learning rate to %.7f' % new_learning_rate
 
-        print "  saved to %s" % metadata_target_path
+        if (epoch + 1) % config.save_every == 0:
+            with open(metadata_target_path, 'w') as f:
+                pickle.dump({
+                    'configuration': config_name,
+                    'experiment_id': experiment_id,
+                    'epoch_since_start': epoch,
+                    'iters_since_start': niter,
+                    'losses_train': losses_train,
+                    'losses_eval_valid': losses_eval_valid,
+                    'learning_rate': learning_rate.get_value(),
+                    'token2idx': token2idx,
+                    # 'losses_eval_train': losses_eval_train,
+                    'param_values': lasagne.layers.get_all_param_values(l_out),
+                }, f, pickle.HIGHEST_PROTOCOL)
 
-    if epoch >= config.max_epoch:
-        break
+            print "  saved to %s" % metadata_target_path
