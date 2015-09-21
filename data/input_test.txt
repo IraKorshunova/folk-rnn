@@ -1,0 +1,23 @@
+M:9/8
+K:Cmaj
+G E E E 2 D E D C | G E E E F G A B c | G E E E 2 D E D C | A D D G E C D 2 A | G E E E 2 D E D C | G E E E F G A B c | G E E E 2 D E D C | A D D G E C D 2 D | E D E c 2 A B A G | E D E A /2 B /2 c A B 2 D | E D E c 2 A B A G | A D D D E G A 2 D | E D E c 2 A B A G | E D E A /2 B /2 c A B 2 B | G A B c B A B A G | A D D D E G A B c |
+
+M:9/8
+K:Cmin
+f B B c f B c c | f B B c a f e c | f B B c f B c c | A 2 B c a f e c | f B B c f B c c | f B B c a f e c | f B B c f B c c | A 2 B c a f e c | f 3 e f g a 2 | f 3 g a f e c | f 3 e f g a 2 | A 2 B c a f e c | f 3 e f g a 2 | f 3 g a f e c | f g a b a f a 2 | A B c A a f e c |
+
+M:6/8
+K:Cdor
+G A B c B G | F G E E F G | F G B, B, C E | C 3 B, C E | F G B c B G | F G E E F G | F G B B G /2 _A /2 B | c e f e c B | F G B c B G | F G E E F G | F G B, B, C E | C 3 B, C E | F G B c B G | F G E E F G | F G B B G /2 _A /2 B | c e f e c B | F G B 2< f 2 | f e f g e c | f 3 e f g | f e c B g f | e f g f 2 f | f e f g e c | f e c e c g | f e c B g f | e g e 2< f 2 | f e f g e c | f 3 e f g | f e c B g f | e f g x g e | f c e e f g | f e c f e c | B G F E F G | B G B
+
+M:4/4
+K:Cmaj
+C B, C B, C E D C | B, D C B, C E G c | e g f e d e e d | c e d c B A G F | E D C B, C E D C | B, D C B, C E G c | e g f e d c d G | F D E C C 2 C 2 | C B, C B, C E D C | B, D C B, C E G c | e g f e d e e d | c e d c B A G F | E D C B, C E D C | B, D C B, C E G c | e g f e d c d G | F D E C C 2 C 2 | D E F E D C B, D | G, B, C 2 E G A C | F A G ^F G c e g | e e d c B A G =F | E D C B, C E D C | B, D C B, C E G c | e g f e d c d G | F D E C C 2 C 2 | D E F E D C B, D | G, B, C 2 E G A C | F A G ^F G c e g | e e d c B A G =F | E D C B, C E D C | B, D C B, C E G c | e g f e d c d G | F D E C C 2 C 2 |
+
+M:6/8
+K:Cmix
+g e e c' e e | c' e e d e f | g e e c' e e | d e f e d c | g e e c' e e | c' e e d e f | g c' g a g f | e f d 2< c 2 | g e e c' e e | c' e e d e f | g e e c' e e | d e f e d c | g e e c' e e | c' e e d e f | g c' g a g f | e f d 2< c 2 |
+
+M:6/8
+K:Cmin
+E D C E G A | A G F D B, G | G F E D E F | E D C D C =B, | =A, G, C E G _A | A G F D _B, G | G F E D E F | E D 2< C 2 C | E D C E G A | A G F D B, G | G F E D E F | E D C D C =B, | =A, G, C E G _A | A G F D _B, G | G F E D E F | E D 2< C 2 C | C c c C =B C | _B C A C A G | G 2 G A G F | F D G A G F | F D c C =B C | _B C A C A G | G 2 G A G F | E D 2< C 2 C | C c c C =B C | _B C A C A G | G 2 G A G F | F D G A G F | F D c C =B C | _B C A C A G | G 2 G A G F | E D 2< C 2 C |

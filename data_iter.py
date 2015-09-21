@@ -1,31 +1,54 @@
 import numpy as np
 from collections import defaultdict
+from itertools import izip
 
 
 class DataIterator(object):
-    def __init__(self, tune_lens, batch_size, random_lens=False):
+    def __init__(self, tune_lens, tune_idxs, batch_size, random_lens=False, infinite=False):
         self.batch_size = batch_size
         self.ntunes = len(tune_lens)
+        self.tune_idxs = tune_idxs
+
+        print tune_lens
+        print tune_idxs
 
         self.len2idx = defaultdict(list)
-        for i in xrange(self.ntunes):
-            self.len2idx[tune_lens[i]].append(i)
+        for k, v in izip(tune_lens, tune_idxs):
+            self.len2idx[k].append(v)
 
         self.random_lens = random_lens
+        self.infinite = infinite
         self.rng = np.random.RandomState(42)
 
     def __iter__(self):
+        # iterator = self.__iter_random_lens() if self.random_lens else self.__iter_homogeneous_lens()
+        # if self.infinite:
+        #     while True:
+        #         for batch_offsets in iterator:
+        #             yield batch_offsets
+        # else:
+        #     for batch_offsets in iterator:
+        #             yield batch_offsets
+
         if self.random_lens:
-            while True:
-                for batch_offsets in self.__iter_random_lens():
-                    yield batch_offsets
+            if self.infinite:
+                while True:
+                    for batch_offsets in self.__iter_random_lens():
+                        yield batch_offsets
+            else:
+                 for batch_offsets in self.__iter_random_lens():
+                        yield batch_offsets
         else:
-            while True:
+            if self.infinite:
+                while True:
+                    for batch_offsets in self.__iter_homogeneous_lens():
+                        yield batch_offsets
+            else:
                 for batch_offsets in self.__iter_homogeneous_lens():
-                    yield batch_offsets
+                        yield batch_offsets
 
     def __iter_random_lens(self):
-        available_idxs = np.arange(self.ntunes)
+        available_idxs = np.copy(self.tune_idxs)
         while len(available_idxs) >= self.batch_size:
             rand_idx = self.rng.choice(range(len(available_idxs)), size=self.batch_size, replace=False)
             yield available_idxs[rand_idx]
