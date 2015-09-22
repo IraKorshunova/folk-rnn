@@ -116,7 +116,10 @@ all_params = lasagne.layers.get_all_params(l_out)
 num_params = lasagne.layers.count_params(l_out)
 print 'number of parameters:', num_params
 
-loss = -1.0 / config.batch_size * T.sum(mask_flat * T.log(predictions[T.arange(y.shape[0]), y]))
+# do something with predictions to calculate loss
+p1 = T.reshape(T.log(predictions[T.arange(y.shape[0]), y]), (config.batch_size, max_seqlen-1))
+p2 = T.sum(mask*p1, axis=1)/itune_lens[idxs]
+loss = -1.0/config.batch_size * T.sum(p2)
 
 learning_rate = theano.shared(np.float32(config.learning_rate))
 
@@ -145,8 +148,6 @@ for epoch in xrange(config.max_epoch):
         iter_time = time.time() - prev_time
 
         grad_param_norm = 0
-        print epoch
-        print train_batch_idxs
         print '%d/%d (epoch %.3f) train_loss=%6.8f  grad/param_norm=%6.4e time/batch=%.2fs' % (
             niter, max_niter, niter / float(train_batches_per_epoch), train_loss, grad_param_norm, iter_time)
 
@@ -158,7 +159,6 @@ for epoch in xrange(config.max_epoch):
             print 'Validating'
             avg_valid_loss = 0
             for valid_batch_idx in valid_data_iterator:
-                print valid_batch_idx
                 avg_valid_loss += validate(valid_batch_idx)
             avg_valid_loss /= nvalid_batches
             losses_eval_valid.append(avg_valid_loss)
