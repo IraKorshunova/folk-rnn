@@ -147,7 +147,7 @@ for epoch in xrange(config.max_epoch):
         train_loss = train(np.int32(train_batch_idxs))
         iter_time = time.time() - prev_time
 
-        grad_param_norm = 0
+        grad_param_norm = 0 # TODO
         print '%d/%d (epoch %.3f) train_loss=%6.8f  grad/param_norm=%6.4e time/batch=%.2fs' % (
             niter, max_niter, niter / float(train_batches_per_epoch), train_loss, grad_param_norm, iter_time)
 
