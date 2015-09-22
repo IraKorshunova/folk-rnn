@@ -140,12 +140,12 @@ nvalid_batches = nvalid_tunes / config.batch_size
 losses_eval_valid = []
 
 niter = 1
-prev_time = time.time()
+prev_time = time.clock()
 
 for epoch in xrange(config.max_epoch):
     for train_batch_idxs in train_data_iterator:
         train_loss = train(np.int32(train_batch_idxs))
-        iter_time = time.time() - prev_time
+        iter_time = time.clock() - prev_time
 
         grad_param_norm = 0 # TODO
         print '%d/%d (epoch %.3f) train_loss=%6.8f  grad/param_norm=%6.4e time/batch=%.2fs' % (
@@ -165,24 +165,24 @@ for epoch in xrange(config.max_epoch):
             print "    loss:\t%.6f" % avg_valid_loss
             print
 
-        if epoch > config.learning_rate_decay_after:
-            new_learning_rate = np.float32(learning_rate.get_value() * config.learning_rate_decay)
-            learning_rate.set_value(new_learning_rate)
-            print 'setting learning rate to %.7f' % new_learning_rate
+    if epoch > config.learning_rate_decay_after:
+        new_learning_rate = np.float32(learning_rate.get_value() * config.learning_rate_decay)
+        learning_rate.set_value(new_learning_rate)
+        print 'setting learning rate to %.7f' % new_learning_rate
 
-        if (epoch + 1) % config.save_every == 0:
-            with open(metadata_target_path, 'w') as f:
-                pickle.dump({
-                    'configuration': config_name,
-                    'experiment_id': experiment_id,
-                    'epoch_since_start': epoch,
-                    'iters_since_start': niter,
-                    'losses_train': losses_train,
-                    'losses_eval_valid': losses_eval_valid,
-                    'learning_rate': learning_rate.get_value(),
-                    'token2idx': token2idx,
-                    # 'losses_eval_train': losses_eval_train,
-                    'param_values': lasagne.layers.get_all_param_values(l_out),
-                }, f, pickle.HIGHEST_PROTOCOL)
+    if (epoch + 1) % config.save_every == 0:
+        with open(metadata_target_path, 'w') as f:
+            pickle.dump({
+                'configuration': config_name,
+                'experiment_id': experiment_id,
+                'epoch_since_start': epoch,
+                'iters_since_start': niter,
+                'losses_train': losses_train,
+                'losses_eval_valid': losses_eval_valid,
+                'learning_rate': learning_rate.get_value(),
+                'token2idx': token2idx,
+                # 'losses_eval_train': losses_eval_train,
+                'param_values': lasagne.layers.get_all_param_values(l_out),
+            }, f, pickle.HIGHEST_PROTOCOL)
 
-            print "  saved to %s" % metadata_target_path
+        print "  saved to %s" % metadata_target_path

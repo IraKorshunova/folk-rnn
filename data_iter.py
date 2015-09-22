@@ -9,9 +9,6 @@ class DataIterator(object):
         self.ntunes = len(tune_lens)
         self.tune_idxs = tune_idxs
 
-        print tune_lens
-        print tune_idxs
-
         self.len2idx = defaultdict(list)
         for k, v in izip(tune_lens, tune_idxs):
             self.len2idx[k].append(v)
