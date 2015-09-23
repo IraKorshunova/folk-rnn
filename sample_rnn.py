@@ -1,39 +1,36 @@
 import theano
 import lasagne
-import sys
-import time
 import os
+import sys
 import importlib
 import cPickle as pickle
 import numpy as np
 import theano.tensor as T
 from lasagne.layers import *
-from itertools import izip
-from data_iter import DataIterator
 
 metadata_path = 'metadata/config1-20150922-192341.pkl'
-method = 'argmax'
-temperature = ''
+temperature = 1.5
+rng_seed = 42
+ntunes = 64
+
 
 # if not (2 <= len(sys.argv) <= 4):
-#     sys.exit("Usage: sample_rnn.py <metadata_path> [sampling temperature]")
+#     sys.exit("Usage: sample_rnn.py <metadata_path> <rng_seed> [sampling temperature]")
 #
 # metadata_path = sys.argv[1]
+# rng_seed = sys.argv[2]
 #
-# if len(sys.argv) == 3:
-#     method = 'sampling'
-#     temperature = sys.argv[2]
+# if len(sys.argv) == 4:
+#     temperature = sys.argv[3]
 # else:
-#     method = 'argmax'
-#     temperature = ''
+#     temperature = 1
 
 with open(metadata_path) as f:
     metadata = pickle.load(f)
 
 config = importlib.import_module('configurations.%s' % metadata['configuration'])
-print metadata['losses_train']
 
-target_path = "samples/%s_%s%s.txt" % (os.path.basename(metadata_path).split('.')[0], method, str(temperature))
+target_path = "samples/%s_s%d_t%.2f.txt" % (os.path.basename(metadata_path).split('.')[0], rng_seed, temperature)
 
 token2idx = metadata['token2idx']
 idx2token = dict((v, k) for k, v in token2idx.iteritems())
@@ -58,8 +55,8 @@ for _ in xrange(config.num_layers):
         main_layers.append(DropoutLayer(main_layers[-1], p=config.dropout))
 
 l_reshp = ReshapeLayer(main_layers[-1], (-1, config.rnn_size))
-l_out = DenseLayer(l_reshp, num_units=vocab_size, nonlinearity=T.nnet.softmax)
-predictions = lasagne.layers.get_output(l_out)[-1, :]
+l_out = DenseLayer(l_reshp, num_units=vocab_size, nonlinearity=lasagne.nonlinearities.identity)
+predictions = T.nnet.softmax(lasagne.layers.get_output(l_out)[-1, :] / temperature)[0]
 
 all_params = lasagne.layers.get_all_params(l_out)
 num_params = lasagne.layers.count_params(l_out)
@@ -71,8 +68,17 @@ predict = theano.function([x], predictions)
 
 start_idx, end_idx = token2idx['<s>'], token2idx['</s>']
 
-sequence = [start_idx]
-while sequence[-1] != end_idx:
-    next_itoken = np.argmax(predict(np.array([sequence], dtype='int32')))
-    sequence.append(next_itoken)
-    print idx2token[next_itoken]
+rng = np.random.RandomState(rng_seed)
+vocab_idxs = np.arange(vocab_size)
+f = open(target_path, 'a')
+
+for _ in xrange(ntunes):
+    sequence = [start_idx]
+    while sequence[-1] != end_idx:
+        next_itoken = rng.choice(vocab_idxs, p=predict(np.array([sequence], dtype='int32')))
+        sequence.append(next_itoken)
+    abc_tune = [idx2token[i] for i in sequence[1:-1]]
+    f.write(abc_tune[0] + '\n')
+    f.write(abc_tune[1] + '\n')
+    f.write(' '.join(abc_tune[2:])+'\n\n')
+f.close()
