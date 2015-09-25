@@ -16,8 +16,15 @@ from data_iter import DataIterator
 # config_name = sys.argv[1]
 # data_path = sys.argv[2]
 
-config_name = 'config1'
+theano.config.profile = True
+theano.config.profile_memory = True
+theano.config.warn_float64 = 'warn'
+
+config_name = 'config_test'
 data_path = 'data/input_test.txt'
+
+# config_name = 'config1'
+# data_path = 'data/input.txt'
 
 config = importlib.import_module('configurations.%s' % config_name)
 
@@ -60,35 +67,32 @@ train_idxs = np.delete(np.arange(ntunes), valid_idxs)
 print 'n tunes:', ntunes
 print 'n train tunes:', ntrain_tunes
 print 'n validation tunes:', nvalid_tunes
+print 'max_len:', max_len
 
 tunes = np.array([i for tune in tunes for i in tune], dtype='float32')
 
 print 'Load data to', theano.config.device
 data_shared = theano.shared(tunes)
-tune_lens_shared = theano.shared(tune_lens)
-offsets_shared = theano.shared(offsets)
+tune_lens_shared = theano.shared(np.int32(tune_lens))
+offsets_shared = theano.shared(np.int32(offsets))
 batch_shared = theano.shared(np.zeros((config.batch_size, max_len), dtype='float32'))
 mask_shared = theano.shared(np.zeros((config.batch_size, max_len - 1), dtype='float32'))
 
 print 'Building the model'
 idxs = T.ivector('idxs')
 
-itune_lens = T.cast(tune_lens_shared, 'int32')
-ioffsets = T.cast(offsets_shared, 'int32')
-
 for i in xrange(config.batch_size):
     j = idxs[i]
-    batch_shared = T.set_subtensor(batch_shared[i, :itune_lens[j]],
-                                   data_shared[ioffsets[j]:ioffsets[j + 1]])
+    batch_shared = T.set_subtensor(batch_shared[i, :tune_lens_shared[j]],
+                                   data_shared[offsets_shared[j]:offsets_shared[j + 1]])
 
-    mask_shared = T.set_subtensor(mask_shared[i, :itune_lens[j] - 1], 1)
-    mask_shared = T.set_subtensor(mask_shared[i, itune_lens[j] - 1:], 0)
+    mask_shared = T.set_subtensor(mask_shared[i, :tune_lens_shared[j] - 1], 1)
+    mask_shared = T.set_subtensor(mask_shared[i, tune_lens_shared[j] - 1:], 0)
 
-max_seqlen = T.max(itune_lens[idxs])
+max_seqlen = T.max(tune_lens_shared[idxs])
 x = T.cast(batch_shared[:, :max_seqlen - 1], 'int32')
 y = T.cast(T.flatten(batch_shared[:, 1:max_seqlen]), 'int32')
 mask = mask_shared[:, :max_seqlen - 1]
-mask_flat = T.flatten(mask)
 
 l_inp = InputLayer((config.batch_size, None), input_var=x)
 l_emb = EmbeddingLayer(l_inp, input_size=vocab_size, output_size=config.embedding_size)
@@ -117,15 +121,16 @@ num_params = lasagne.layers.count_params(l_out)
 print 'number of parameters:', num_params
 
 # do something with predictions to calculate loss
-p1 = T.reshape(T.log(predictions[T.arange(y.shape[0]), y]), (config.batch_size, max_seqlen-1))
-p2 = T.sum(mask*p1, axis=1)/itune_lens[idxs]
-loss = -1.0/config.batch_size * T.sum(p2)
+p1 = T.reshape(T.log(predictions[T.arange(y.shape[0]), y]), (config.batch_size, max_seqlen - 1))
+p2 = T.sum(mask * p1, axis=1) / T.cast(tune_lens_shared[idxs], 'float32')
+loss = -1.0 / config.batch_size * T.sum(p2)
 
 learning_rate = theano.shared(np.float32(config.learning_rate))
 
 updates = lasagne.updates.rmsprop(loss, all_params, config.learning_rate)
 
 train = theano.function([idxs], loss, updates=updates)
+
 validate = theano.function([idxs], loss)
 
 train_data_iterator = DataIterator(tune_lens[train_idxs], train_idxs, config.batch_size, random_lens=False)
@@ -147,7 +152,7 @@ for epoch in xrange(config.max_epoch):
         train_loss = train(np.int32(train_batch_idxs))
         iter_time = time.clock() - prev_time
 
-        grad_param_norm = 0 # TODO
+        grad_param_norm = 0.0
         print '%d/%d (epoch %.3f) train_loss=%6.8f  grad/param_norm=%6.4e time/batch=%.2fs' % (
             niter, max_niter, niter / float(train_batches_per_epoch), train_loss, grad_param_norm, iter_time)
 
