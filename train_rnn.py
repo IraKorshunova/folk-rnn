@@ -16,6 +16,7 @@ from data_iter import DataIterator
 # config_name = sys.argv[1]
 # data_path = sys.argv[2]
 
+theano.config.floatX = 'float32'
 theano.config.profile = True
 theano.config.profile_memory = True
 theano.config.warn_float64 = 'warn'
@@ -73,23 +74,26 @@ tunes = np.array([i for tune in tunes for i in tune], dtype='float32')
 
 print 'Load data to', theano.config.device
 data_shared = theano.shared(tunes)
-tune_lens_shared = theano.shared(np.int32(tune_lens))
-offsets_shared = theano.shared(np.int32(offsets))
+tune_lens_shared = theano.shared(np.float32(tune_lens))
+offsets_shared = theano.shared(np.float32(offsets))
 batch_shared = theano.shared(np.zeros((config.batch_size, max_len), dtype='float32'))
 mask_shared = theano.shared(np.zeros((config.batch_size, max_len - 1), dtype='float32'))
 
 print 'Building the model'
 idxs = T.ivector('idxs')
 
+itune_lens = T.cast(tune_lens_shared, 'int32')
+ioffsets = T.cast(offsets_shared, 'int32')
+
 for i in xrange(config.batch_size):
     j = idxs[i]
-    batch_shared = T.set_subtensor(batch_shared[i, :tune_lens_shared[j]],
-                                   data_shared[offsets_shared[j]:offsets_shared[j + 1]])
+    batch_shared = T.set_subtensor(batch_shared[i, :itune_lens[j]],
+                                   data_shared[ioffsets[j]:ioffsets[j + 1]])
 
-    mask_shared = T.set_subtensor(mask_shared[i, :tune_lens_shared[j] - 1], 1)
-    mask_shared = T.set_subtensor(mask_shared[i, tune_lens_shared[j] - 1:], 0)
+    mask_shared = T.set_subtensor(mask_shared[i, :itune_lens[j] - 1], 1)
+    mask_shared = T.set_subtensor(mask_shared[i, itune_lens[j] - 1:], 0)
 
-max_seqlen = T.max(tune_lens_shared[idxs])
+max_seqlen = T.max(itune_lens[idxs])
 x = T.cast(batch_shared[:, :max_seqlen - 1], 'int32')
 y = T.cast(T.flatten(batch_shared[:, 1:max_seqlen]), 'int32')
 mask = mask_shared[:, :max_seqlen - 1]
@@ -122,7 +126,7 @@ print 'number of parameters:', num_params
 
 # do something with predictions to calculate loss
 p1 = T.reshape(T.log(predictions[T.arange(y.shape[0]), y]), (config.batch_size, max_seqlen - 1))
-p2 = T.sum(mask * p1, axis=1) / T.cast(tune_lens_shared[idxs], 'float32')
+p2 = T.sum(mask * p1, axis=1) / T.cast(itune_lens[idxs], 'float32')
 loss = -1.0 / config.batch_size * T.sum(p2)
 
 learning_rate = theano.shared(np.float32(config.learning_rate))
@@ -130,7 +134,6 @@ learning_rate = theano.shared(np.float32(config.learning_rate))
 updates = lasagne.updates.rmsprop(loss, all_params, config.learning_rate)
 
 train = theano.function([idxs], loss, updates=updates)
-
 validate = theano.function([idxs], loss)
 
 train_data_iterator = DataIterator(tune_lens[train_idxs], train_idxs, config.batch_size, random_lens=False)
