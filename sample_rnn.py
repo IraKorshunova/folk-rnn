@@ -8,11 +8,12 @@ import numpy as np
 import theano.tensor as T
 from lasagne.layers import *
 
-metadata_path = 'metadata/config1-20150922-192341.pkl'
-temperature = 1.5
+metadata_path = 'metadata/config_test-20150926-130415.pkl'
+temperature = 1
 rng_seed = 42
 ntunes = 64
 
+theano.config.floatX = 'float64'
 
 # if not (2 <= len(sys.argv) <= 4):
 #     sys.exit("Usage: sample_rnn.py <metadata_path> <rng_seed> [sampling temperature]")
