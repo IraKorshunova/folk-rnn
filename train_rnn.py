@@ -56,6 +56,7 @@ train_idxs = np.delete(np.arange(ntunes), valid_idxs)
 print 'n tunes:', ntunes
 print 'n train tunes:', ntrain_tunes
 print 'n validation tunes:', nvalid_tunes
+print 'min, max length', min(tune_lens), max(tune_lens)
 
 # allocate memory for a batch on CPU
 x_np = np.zeros((config.batch_size, max_len), dtype='float32')
