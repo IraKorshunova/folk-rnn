@@ -11,7 +11,7 @@ from itertools import izip
 from data_iter import DataIterator
 
 if len(sys.argv) < 3:
-    sys.exit("Usage: train_rnn_v1.py <configuration_name> <train data filename>")
+    sys.exit("Usage: train_rnn.py <configuration_name> <train data filename>")
 
 theano.config.floatX = 'float32'
 
