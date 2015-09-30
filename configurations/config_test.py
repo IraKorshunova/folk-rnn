@@ -1,3 +1,4 @@
+one_hot = False
 embedding_size = 16
 num_layers = 2
 rnn_size = 32

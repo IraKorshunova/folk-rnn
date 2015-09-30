@@ -18,11 +18,11 @@ class DataIterator(object):
 
     def __iter__(self):
         if self.random_lens:
-            for batch_offsets in self.__iter_random_lens():
-                yield batch_offsets
+            for batch_idxs in self.__iter_random_lens():
+                yield np.int32(batch_idxs)
         else:
-            for batch_offsets in self.__iter_homogeneous_lens():
-                yield batch_offsets
+            for batch_idxs in self.__iter_homogeneous_lens():
+                yield np.int32(batch_idxs)
 
     def __iter_random_lens(self):
         available_idxs = np.copy(self.tune_idxs)

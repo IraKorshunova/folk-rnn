@@ -25,7 +25,7 @@ with open(metadata_path) as f:
 
 config = importlib.import_module('configurations.%s' % metadata['configuration'])
 
-target_path = "samples/%s-s%d-%.2f-%s.txt" % (os.path.basename(metadata_path).split('.')[0], rng_seed, temperature, time.strftime("%Y%m%d-%H%M%S", time.localtime()))
+target_path = "samples/%s-s%d-%.2f-%s.txt" % (metadata['experiment_id'], rng_seed, temperature, time.strftime("%Y%m%d-%H%M%S", time.localtime()))
 
 token2idx = metadata['token2idx']
 idx2token = dict((v, k) for k, v in token2idx.iteritems())

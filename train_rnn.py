@@ -1,6 +1,7 @@
 import theano
 import lasagne
 import sys
+import os
 import time
 import importlib
 import cPickle as pickle
@@ -16,12 +17,17 @@ if len(sys.argv) < 3:
 theano.config.floatX = 'float32'
 
 config_name = sys.argv[1]
-config = importlib.import_module('configurations.%s' % config_name)
-experiment_id = '%s-%s' % (config_name.split('.')[-1], time.strftime("%Y%m%d-%H%M%S", time.localtime()))
-metadata_target_path = 'metadata/%s.pkl' % experiment_id
-sys.stdout = open('logs/%s.log' % experiment_id, 'w')
-
 data_path = sys.argv[2]
+
+# config_name ='config_test'
+# data_path = 'data/wrepeats.txt'
+
+config = importlib.import_module('configurations.%s' % config_name)
+experiment_id = '%s-%s-%s' % (config_name.split('.')[-1], os.path.basename(data_path.split('.')[0]), time.strftime("%Y%m%d-%H%M%S", time.localtime()))
+print experiment_id
+metadata_target_path = 'metadata/%s.pkl' % experiment_id
+#sys.stdout = open('logs/%s.log' % experiment_id, 'w')
+
 with open(data_path, 'r') as f:
     data = f.read()
 
@@ -39,6 +45,7 @@ del data
 tunes = [[token2idx[c] for c in [start_symbol] + t.split() + [end_symbol]] for t in tunes]
 tunes.sort(key=lambda x: len(x), reverse=True)
 ntunes = len(tunes)
+print [idx2token[c] for c in tunes[-1]]
 
 tune_lens = np.array([len(t) for t in tunes])
 max_len = max(tune_lens)
@@ -76,7 +83,10 @@ y = T.cast(T.flatten(batch_shared[:, 1:max_seqlen]), 'int32')
 mask = mask_shared[:, :max_seqlen - 1]
 
 l_inp = InputLayer((config.batch_size, None), input_var=x)
-l_emb = EmbeddingLayer(l_inp, input_size=vocab_size, output_size=config.embedding_size)
+
+W_emb = np.eye(vocab_size, dtype='float32') if config.one_hot else lasagne.init.Orthogonal()
+emb_output_size = vocab_size if config.one_hot else config.embedding_size
+l_emb = EmbeddingLayer(l_inp, input_size=vocab_size, output_size=emb_output_size, W=W_emb)
 
 l_mask = InputLayer(shape=(config.batch_size, None), input_var=mask)
 
@@ -102,6 +112,8 @@ l_out = DenseLayer(l_reshp, num_units=vocab_size, W=lasagne.init.Orthogonal(), n
 predictions = lasagne.layers.get_output(l_out)
 
 all_params = lasagne.layers.get_all_params(l_out)
+if config.one_hot:
+    all_params = all_params[1:]
 num_params = lasagne.layers.count_params(l_out)
 print 'number of parameters:', num_params
 
@@ -118,6 +130,7 @@ updates = lasagne.updates.rmsprop(grads, all_params, config.learning_rate)
 train = theano.function([idxs], loss, updates=updates)
 validate = theano.function([idxs], loss)
 
+
 def create_batch(idxs):
     for i, j in enumerate(idxs):
         x_np[i, :tune_lens[j]] = tunes[j]
@@ -128,6 +141,7 @@ def create_batch(idxs):
 
 train_data_iterator = DataIterator(tune_lens[train_idxs], train_idxs, config.batch_size, random_lens=False)
 valid_data_iterator = DataIterator(tune_lens[valid_idxs], valid_idxs, config.batch_size, random_lens=False)
+
 
 print 'Train model'
 train_batches_per_epoch = ntrain_tunes / config.batch_size
@@ -143,7 +157,7 @@ prev_time = time.clock()
 for epoch in xrange(config.max_epoch):
     for train_batch_idxs in train_data_iterator:
         create_batch(train_batch_idxs)
-        train_loss = train(np.int32(train_batch_idxs))
+        train_loss = train(train_batch_idxs)
         current_time = time.clock()
 
         print '%d/%d (epoch %.3f) train_loss=%6.8f time/batch=%.2fs' % (
