@@ -19,14 +19,14 @@ theano.config.floatX = 'float32'
 config_name = sys.argv[1]
 data_path = sys.argv[2]
 
-# config_name ='config_test'
-# data_path = 'data/wrepeats.txt'
+# config_name ='config_test_resume'
+# data_path = 'data/input_test.txt'
 
 config = importlib.import_module('configurations.%s' % config_name)
 experiment_id = '%s-%s-%s' % (config_name.split('.')[-1], os.path.basename(data_path.split('.')[0]), time.strftime("%Y%m%d-%H%M%S", time.localtime()))
 print experiment_id
 metadata_target_path = 'metadata/%s.pkl' % experiment_id
-#sys.stdout = open('logs/%s.log' % experiment_id, 'w')
+sys.stdout = open('logs/%s.log' % experiment_id, 'w')
 
 with open(data_path, 'r') as f:
     data = f.read()
@@ -114,8 +114,12 @@ predictions = lasagne.layers.get_output(l_out)
 all_params = lasagne.layers.get_all_params(l_out)
 if config.one_hot:
     all_params = all_params[1:]
-num_params = lasagne.layers.count_params(l_out)
-print 'number of parameters:', num_params
+all_layes = lasagne.layers.get_all_layers(l_out)
+for layer in all_layes:
+    print layer.__class__.__name__
+    for p in layer.get_params():
+        print p.get_value().shape
+print 'number of parameters:',lasagne.layers.count_params(l_out)
 
 # calculating loss
 p1 = T.reshape(T.log(predictions[T.arange(y.shape[0]), y]), (config.batch_size, max_seqlen - 1))
@@ -123,7 +127,6 @@ p2 = T.sum(mask * p1, axis=1) / tune_lens_shared[idxs]
 loss = -1.0 / config.batch_size * T.sum(p2)
 
 learning_rate = theano.shared(np.float32(config.learning_rate))
-
 grads = theano.grad(loss, all_params)
 updates = lasagne.updates.rmsprop(grads, all_params, config.learning_rate)
 
@@ -139,9 +142,9 @@ def create_batch(idxs):
     batch_shared.set_value(x_np)
     mask_shared.set_value(mask_np)
 
+
 train_data_iterator = DataIterator(tune_lens[train_idxs], train_idxs, config.batch_size, random_lens=False)
 valid_data_iterator = DataIterator(tune_lens[valid_idxs], valid_idxs, config.batch_size, random_lens=False)
-
 
 print 'Train model'
 train_batches_per_epoch = ntrain_tunes / config.batch_size
@@ -150,11 +153,22 @@ losses_train = []
 
 nvalid_batches = nvalid_tunes / config.batch_size
 losses_eval_valid = []
-
 niter = 1
+start_epoch = 0
 prev_time = time.clock()
 
-for epoch in xrange(config.max_epoch):
+if hasattr(config, 'resume_path'):
+    print 'Load metadata for resuming'
+    with open(config.resume_path) as f:
+        resume_metadata = pickle.load(f)
+
+    lasagne.layers.set_all_param_values(l_out, resume_metadata['param_values'])
+    start_epoch = resume_metadata['epoch_since_start']+1
+    niter = resume_metadata['iters_since_start']
+    learning_rate.set_value(resume_metadata['learning_rate'])
+    print 'setting learning rate to %.7f' % resume_metadata['learning_rate']
+
+for epoch in xrange(start_epoch, config.max_epoch):
     for train_batch_idxs in train_data_iterator:
         create_batch(train_batch_idxs)
         train_loss = train(train_batch_idxs)

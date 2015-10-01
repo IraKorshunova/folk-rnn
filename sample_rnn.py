@@ -17,6 +17,9 @@ if not (2 <= len(sys.argv) <= 5):
 metadata_path = sys.argv[1]
 rng_seed = int(sys.argv[2])
 
+# metadata_path = 'metadata/config_test-input_test-20151001-130023.pkl'
+# rng_seed = 42
+
 temperature = int(sys.argv[3]) if len(sys.argv) == 4 or len(sys.argv) == 5 else 1
 ntunes = int(sys.argv[4]) if len(sys.argv) == 5 else 64
 
@@ -25,7 +28,8 @@ with open(metadata_path) as f:
 
 config = importlib.import_module('configurations.%s' % metadata['configuration'])
 
-target_path = "samples/%s-s%d-%.2f-%s.txt" % (metadata['experiment_id'], rng_seed, temperature, time.strftime("%Y%m%d-%H%M%S", time.localtime()))
+target_path = "samples/%s-s%d-%.2f-%s.txt" % (
+metadata['experiment_id'], rng_seed, temperature, time.strftime("%Y%m%d-%H%M%S", time.localtime()))
 
 token2idx = metadata['token2idx']
 idx2token = dict((v, k) for k, v in token2idx.iteritems())
@@ -34,7 +38,10 @@ vocab_size = len(token2idx)
 print 'Building the model'
 x = T.imatrix('x')
 l_inp = InputLayer((1, None), input_var=x)
-l_emb = EmbeddingLayer(l_inp, input_size=vocab_size, output_size=config.embedding_size)
+
+W_emb = np.eye(vocab_size, dtype='float32') if config.one_hot else lasagne.init.Orthogonal()
+emb_output_size = vocab_size if config.one_hot else config.embedding_size
+l_emb = EmbeddingLayer(l_inp, input_size=vocab_size, output_size=emb_output_size, W=W_emb)
 
 main_layers = []
 for _ in xrange(config.num_layers):
@@ -54,10 +61,14 @@ l_out = DenseLayer(l_reshp, num_units=vocab_size, nonlinearity=lasagne.nonlinear
 predictions = T.nnet.softmax(lasagne.layers.get_output(l_out)[-1, :] / temperature)[0]
 
 all_params = lasagne.layers.get_all_params(l_out)
-num_params = lasagne.layers.count_params(l_out)
-print 'number of parameters:', num_params
-
 lasagne.layers.set_all_param_values(l_out, metadata['param_values'])
+
+all_layes = lasagne.layers.get_all_layers(l_out)
+for layer in all_layes:
+    print layer.__class__.__name__
+    for p in layer.get_params():
+        print p.get_value().shape
+print 'number of parameters:', lasagne.layers.count_params(l_out)
 
 predict = theano.function([x], predictions)
 
@@ -76,5 +87,5 @@ for i in xrange(ntunes):
     abc_tune = [idx2token[i] for i in sequence[1:-1]]
     f.write(abc_tune[0] + '\n')
     f.write(abc_tune[1] + '\n')
-    f.write(' '.join(abc_tune[2:])+'\n\n')
+    f.write(' '.join(abc_tune[2:]) + '\n\n')
 f.close()
