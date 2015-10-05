@@ -1,4 +1,0 @@
-
-- initial params
-- hyperparams
-- monitor grad/params_norm

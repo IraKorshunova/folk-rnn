@@ -1,6 +1,5 @@
 import theano
 import lasagne
-import os
 import sys
 import time
 import importlib
@@ -9,16 +8,14 @@ import numpy as np
 import theano.tensor as T
 from lasagne.layers import *
 
+# for numpy.random.choice
 theano.config.floatX = 'float64'
 
 if not (2 <= len(sys.argv) <= 5):
-    sys.exit("Usage: sample_rnn.py <metadata_path> <rng_seed> [sampling temperature] [ntunes]")
+    sys.exit("Usage: sample_rnn.py <metadata_path> <rng_seed> [softmax temperature] [ntunes]")
 
 metadata_path = sys.argv[1]
 rng_seed = int(sys.argv[2])
-
-# metadata_path = 'metadata/config_test-input_test-20151001-130023.pkl'
-# rng_seed = 42
 
 temperature = int(sys.argv[3]) if len(sys.argv) == 4 or len(sys.argv) == 5 else 1
 ntunes = int(sys.argv[4]) if len(sys.argv) == 5 else 64

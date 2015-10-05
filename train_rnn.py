@@ -11,16 +11,16 @@ from lasagne.layers import *
 from itertools import izip
 from data_iter import DataIterator
 
-if len(sys.argv) < 3:
-    sys.exit("Usage: train_rnn.py <configuration_name> <train data filename>")
+# if len(sys.argv) < 3:
+#     sys.exit("Usage: train_rnn.py <configuration_name> <train data filename>")
+#
+# theano.config.floatX = 'float32'
 
-theano.config.floatX = 'float32'
+# config_name = sys.argv[1]
+# data_path = sys.argv[2]
 
-config_name = sys.argv[1]
-data_path = sys.argv[2]
-
-# config_name ='config_test_resume'
-# data_path = 'data/input_test.txt'
+config_name ='config_test'
+data_path = 'data/wrepeats.txt'
 
 config = importlib.import_module('configurations.%s' % config_name)
 experiment_id = '%s-%s-%s' % (config_name.split('.')[-1], os.path.basename(data_path.split('.')[0]), time.strftime("%Y%m%d-%H%M%S", time.localtime()))
@@ -45,7 +45,6 @@ del data
 tunes = [[token2idx[c] for c in [start_symbol] + t.split() + [end_symbol]] for t in tunes]
 tunes.sort(key=lambda x: len(x), reverse=True)
 ntunes = len(tunes)
-print [idx2token[c] for c in tunes[-1]]
 
 tune_lens = np.array([len(t) for t in tunes])
 max_len = max(tune_lens)
@@ -121,7 +120,7 @@ for layer in all_layes:
         print p.get_value().shape
 print 'number of parameters:',lasagne.layers.count_params(l_out)
 
-# calculating loss
+# loss
 p1 = T.reshape(T.log(predictions[T.arange(y.shape[0]), y]), (config.batch_size, max_seqlen - 1))
 p2 = T.sum(mask * p1, axis=1) / tune_lens_shared[idxs]
 loss = -1.0 / config.batch_size * T.sum(p2)
@@ -132,7 +131,6 @@ updates = lasagne.updates.rmsprop(grads, all_params, config.learning_rate)
 
 train = theano.function([idxs], loss, updates=updates)
 validate = theano.function([idxs], loss)
-
 
 def create_batch(idxs):
     for i, j in enumerate(idxs):
