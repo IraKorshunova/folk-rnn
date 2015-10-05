@@ -11,16 +11,13 @@ from lasagne.layers import *
 from itertools import izip
 from data_iter import DataIterator
 
-# if len(sys.argv) < 3:
-#     sys.exit("Usage: train_rnn.py <configuration_name> <train data filename>")
-#
-# theano.config.floatX = 'float32'
+theano.config.floatX = 'float32'
 
-# config_name = sys.argv[1]
-# data_path = sys.argv[2]
+if len(sys.argv) < 3:
+    sys.exit("Usage: train_rnn.py <configuration_name> <train data filename>")
 
-config_name ='config_test'
-data_path = 'data/wrepeats.txt'
+config_name = sys.argv[1]
+data_path = sys.argv[2]
 
 config = importlib.import_module('configurations.%s' % config_name)
 experiment_id = '%s-%s-%s' % (config_name.split('.')[-1], os.path.basename(data_path.split('.')[0]), time.strftime("%Y%m%d-%H%M%S", time.localtime()))
