@@ -1,5 +1,6 @@
 import theano
 import lasagne
+import os
 import sys
 import time
 import importlib
@@ -8,14 +9,16 @@ import numpy as np
 import theano.tensor as T
 from lasagne.layers import *
 
-# for numpy.random.choice
 theano.config.floatX = 'float64'
 
 if not (2 <= len(sys.argv) <= 5):
-    sys.exit("Usage: sample_rnn.py <metadata_path> <rng_seed> [softmax temperature] [ntunes]")
+    sys.exit("Usage: sample_rnn.py <metadata_path> <rng_seed> [sampling temperature] [ntunes]")
 
 metadata_path = sys.argv[1]
 rng_seed = int(sys.argv[2])
+
+# metadata_path = 'metadata/config_test-input_test-20151001-130023.pkl'
+# rng_seed = 42
 
 temperature = int(sys.argv[3]) if len(sys.argv) == 4 or len(sys.argv) == 5 else 1
 ntunes = int(sys.argv[4]) if len(sys.argv) == 5 else 64
@@ -26,7 +29,7 @@ with open(metadata_path) as f:
 config = importlib.import_module('configurations.%s' % metadata['configuration'])
 
 target_path = "samples/%s-s%d-%.2f-%s.txt" % (
-metadata['experiment_id'], rng_seed, temperature, time.strftime("%Y%m%d-%H%M%S", time.localtime()))
+    metadata['experiment_id'], rng_seed, temperature, time.strftime("%Y%m%d-%H%M%S", time.localtime()))
 
 token2idx = metadata['token2idx']
 idx2token = dict((v, k) for k, v in token2idx.iteritems())
@@ -55,7 +58,7 @@ for _ in xrange(config.num_layers):
 
 l_reshp = ReshapeLayer(main_layers[-1], (-1, config.rnn_size))
 l_out = DenseLayer(l_reshp, num_units=vocab_size, nonlinearity=lasagne.nonlinearities.identity)
-predictions = T.nnet.softmax(lasagne.layers.get_output(l_out)[-1, :] / temperature)[0]
+predictions = T.nnet.softmax(lasagne.layers.get_output(l_out, deterministic=True)[-1, :] / temperature)[0]
 
 all_params = lasagne.layers.get_all_params(l_out)
 lasagne.layers.set_all_param_values(l_out, metadata['param_values'])

@@ -42,6 +42,7 @@ del data
 tunes = [[token2idx[c] for c in [start_symbol] + t.split() + [end_symbol]] for t in tunes]
 tunes.sort(key=lambda x: len(x), reverse=True)
 ntunes = len(tunes)
+print [idx2token[c] for c in tunes[-1]]
 
 tune_lens = np.array([len(t) for t in tunes])
 max_len = max(tune_lens)
@@ -106,6 +107,7 @@ for _ in xrange(config.num_layers):
 l_reshp = ReshapeLayer(main_layers[-1], (-1, config.rnn_size))
 l_out = DenseLayer(l_reshp, num_units=vocab_size, W=lasagne.init.Orthogonal(), nonlinearity=T.nnet.softmax)
 predictions = lasagne.layers.get_output(l_out)
+predictions_det = lasagne.layers.get_output(l_out, deterministic=True)
 
 all_params = lasagne.layers.get_all_params(l_out)
 if config.one_hot:
@@ -115,19 +117,23 @@ for layer in all_layes:
     print layer.__class__.__name__
     for p in layer.get_params():
         print p.get_value().shape
-print 'number of parameters:',lasagne.layers.count_params(l_out)
+print 'number of parameters:', lasagne.layers.count_params(l_out)
 
-# loss
+# training loss
 p1 = T.reshape(T.log(predictions[T.arange(y.shape[0]), y]), (config.batch_size, max_seqlen - 1))
-p2 = T.sum(mask * p1, axis=1) / tune_lens_shared[idxs]
-loss = -1.0 / config.batch_size * T.sum(p2)
+loss = -1.0 / config.batch_size * T.sum(T.sum(mask * p1, axis=1) / tune_lens_shared[idxs])
+
+# validation loss (with disabled dropout)
+p1_det = T.reshape(T.log(predictions_det[T.arange(y.shape[0]), y]), (config.batch_size, max_seqlen - 1))
+loss_det = -1.0 / config.batch_size * T.sum(T.sum(mask * p1, axis=1) / tune_lens_shared[idxs])
 
 learning_rate = theano.shared(np.float32(config.learning_rate))
 grads = theano.grad(loss, all_params)
 updates = lasagne.updates.rmsprop(grads, all_params, config.learning_rate)
 
 train = theano.function([idxs], loss, updates=updates)
-validate = theano.function([idxs], loss)
+validate = theano.function([idxs], loss_det)
+
 
 def create_batch(idxs):
     for i, j in enumerate(idxs):
