@@ -28,6 +28,9 @@ with open(metadata_path) as f:
 
 config = importlib.import_module('configurations.%s' % metadata['configuration'])
 
+# samples dir
+if not os.path.isdir('samples'):
+        os.makedirs('samples')
 target_path = "samples/%s-s%d-%.2f-%s.txt" % (
     metadata['experiment_id'], rng_seed, temperature, time.strftime("%Y%m%d-%H%M%S", time.localtime()))
 
