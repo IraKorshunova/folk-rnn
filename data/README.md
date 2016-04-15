@@ -1,7 +1,9 @@
 # Folk music style modelling using LSTMs
 
-This code was used for the following published works:
+This is the data we have used.
 
-1. Sturm, Santos and Korshunova, ["Folk Music Style Modelling by Recurrent Neural Networks with Long Short Term Memory Units"](http://ismir2015.uma.es/LBD/LBD13.pdf), Late-breaking demo at the 2015 Int. Symposium on Music Information Retrieval
+1. sessions_data_clean.txt: This comes from the [weekly repository of thesession.org](https://github.com/adactio/TheSession-data), except we have cleaned it to a very thorough degree (removing html, comments, etc.).
 
-2. Sturm, Santos, Ben-Tal and Korshunova, "Music transcription modelling and composition using deep learning", in Proc. [1st Conf. Computer Simulation of Musical Creativity](https://csmc2016.wordpress.com), Huddersfield, UK, July 2016.
+2. allabcwrepeats_parsed: This is the above but cleaned, and tokenised.
+
+3. allabcworepeats_parsed: This is the above but with the repeats made explicit (converting to midi and back to abc)
