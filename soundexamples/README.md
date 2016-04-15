@@ -1,11 +1,15 @@
 These sound examples accompany our paper: 
 
-Sturm, Santos, Ben-Tal and Korshunova, “Music transcription modelling and composition using deep learning”, in Proc. 1st Conf. Computer Simulation of Musical Creativity, Huddersfield, UK, July 2016.
+Sturm, Santos, Ben-Tal and Korshunova, “Music transcription modelling and composition using deep learning”, in Proc. [1st Conf. Computer Simulation of Musical Creativity](https://csmc2016.wordpress.com), Huddersfield, UK, July 2016.
 
 Here is a description of the contents.
 
 Directories:
-- successes: synthesis of generated transcriptions we find plausible and consistent of the stylistic conventions in the training data- nearmisses: synthesis of generated transcriptions we find plausible, but at times inconsistent with the stylistic conventions in the training data (for instance, accidentals, rhythm, structure)- totalmisses: synthesis of generated transcriptions we find implausible
+- successes: synthesis of generated transcriptions we find plausible and consistent of the stylistic conventions in the training data
+
+- nearmisses: synthesis of generated transcriptions we find plausible, but at times inconsistent with the stylistic conventions in the training data (for instance, accidentals, rhythm, structure)
+
+- totalmisses: synthesis of generated transcriptions we find implausible
 
 - compositions: synthesis of my compositions created using the systems
  * “The March of Deep Learning” is discussed in the paper
