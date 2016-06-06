@@ -16,18 +16,22 @@ from lasagne.layers import *
 
 theano.config.floatX = 'float64'
 
-if not (2 <= len(sys.argv) <= 6):
-    sys.exit("Usage: sample_rnn.py <metadata_path> <rng_seed> [sampling temperature] [seed] [ntunes]")
+import argparse
 
-metadata_path = sys.argv[1]
-rng_seed = int(sys.argv[2])
+parser = argparse.ArgumentParser()
+parser.add_argument('metadata_path')
+parser.add_argument('--rng_seed', type=int, default=42)
+parser.add_argument('--temperature', type=float, default=1.0)
+parser.add_argument('--ntunes', type=int, default=1)
+parser.add_argument('--seed')
 
-# metadata_path = 'metadata/config_test-input_test-20151001-130023.pkl'
-# rng_seed = 42
+args = parser.parse_args()
 
-temperature = int(sys.argv[3]) if len(sys.argv) == 4 or len(sys.argv) == 5 else 1
-ntunes = int(sys.argv[5]) if len(sys.argv) == 6 else 64
-seed = sys.argv[4] if len(sys.argv) >= 5 else None
+metadata_path = args.metadata_path
+rng_seed = args.rng_seed
+temperature = args.temperature
+ntunes = args.ntunes
+seed = args.seed
 
 with open(metadata_path) as f:
     metadata = pickle.load(f)
@@ -46,6 +50,7 @@ vocab_size = len(token2idx)
 
 print('Building the model')
 x = T.imatrix('x')
+
 l_inp = InputLayer((1, None), input_var=x)
 
 W_emb = np.eye(vocab_size, dtype='float32') if config.one_hot else lasagne.init.Orthogonal()
