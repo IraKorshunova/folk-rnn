@@ -24,6 +24,7 @@ parser.add_argument('--rng_seed', type=int, default=42)
 parser.add_argument('--temperature', type=float, default=1.0)
 parser.add_argument('--ntunes', type=int, default=1)
 parser.add_argument('--seed')
+parser.add_argument('--terminal', action="store_true")
 
 args = parser.parse_args()
 
@@ -90,7 +91,6 @@ start_idx, end_idx = token2idx['<s>'], token2idx['</s>']
 
 rng = np.random.RandomState(rng_seed)
 vocab_idxs = np.arange(vocab_size)
-f = open(target_path, 'w')
 
 # Converting the seed passed as an argument into a list of idx
 seed_sequence = [start_idx]
@@ -99,13 +99,25 @@ if seed is not None:
         seed_sequence.append(token2idx[token])
 
 for i in xrange(ntunes):
-    sequence = seed_sequence
+    sequence = seed_sequence[:]
     while sequence[-1] != end_idx:
         next_itoken = rng.choice(vocab_idxs, p=predict(np.array([sequence], dtype='int32')))
         sequence.append(next_itoken)
-    print(i)
-    abc_tune = [idx2token[i] for i in sequence[1:-1]]
-    f.write(abc_tune[0] + '\n')
-    f.write(abc_tune[1] + '\n')
-    f.write(' '.join(abc_tune[2:]) + '\n\n')
-f.close()
+
+    abc_tune = [idx2token[j] for j in sequence[1:-1]]
+    if not args.terminal:
+        f = open(target_path, 'a+')
+	f.write('X:' + repr(i) + '\n')
+        f.write(abc_tune[0] + '\n')
+        f.write(abc_tune[1] + '\n')
+        f.write(' '.join(abc_tune[2:]) + '\n\n')
+        f.close()
+    else:
+	print('X:' + repr(i))
+        print(abc_tune[0])
+        print(abc_tune[1])
+        print(' '.join(abc_tune[2:]) + '\n')
+
+
+if not args.terminal:
+    print('Saved to '+target_path)
