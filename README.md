@@ -32,4 +32,4 @@ This code was also used to create the following music compositions:
 8. "The Mal's Copporim" by folk-rnn (2015) https://youtu.be/YMbWwU2JdLg
 9. "The Castle Star" by folk-rnn + Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/08/12/deep-learning-for-assisting-the-process-of-music-composition-part-2/
 10. "The Doutlace" by folk-rnn + Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/08/11/deep-learning-for-assisting-the-process-of-music-composition-part-1/
-35,809 tunes at The Endless Traditional Music Session http://www.eecs.qmul.ac.uk/~sturm/research/RNNIrishTrad/index.html 
+11. 35,809 tunes at The Endless Traditional Music Session http://www.eecs.qmul.ac.uk/~sturm/research/RNNIrishTrad/index.html 
