@@ -18,3 +18,4 @@ This code was also used to create the following music compositions:
 4. "Interlude" by Bob L. Sturm (2017)
 5. "The Humours of Time Pigeon" by Bob L. Sturm (2017)
 6. "It came out from a pretrained net" by Bob L. Sturm (2016) (https://highnoongmt.wordpress.com/2015/12/16/tis-the-season-for-some-deep-carols/)
+7. “We three layers o’ hidd’n units are” by Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/12/16/tis-the-season-for-some-deep-carols/
