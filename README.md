@@ -13,9 +13,9 @@ This code was used for the following published works:
 This code was also used to create the following music compositions:
 
 1. "Bastard Tunes" by Oded Ben-Tal (2017)
-1. "Chicken Bits and Bits and Bobs" by Bob L. Sturm (2017)
-3. "March to the Mainframe" by Bob L. Sturm (2017)
-4. "Interlude" by Bob L. Sturm (2017)
-5. "The Humours of Time Pigeon" by Bob L. Sturm (2017)
+1. "Chicken Bits and Bits and Bobs" by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/05/05/preview-of-chicken-bits-and-bits-and-bobs/
+3. "March to the Mainframe" by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/05/07/preview-of-march-to-the-mainframe/
+4. "Interlude" by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/05/10/preview-of-interlude/
+5. "The Humours of Time Pigeon" by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/05/14/preview-of-the-humours-of-time-pigeon/
 6. "It came out from a pretrained net" by Bob L. Sturm (2016) (https://highnoongmt.wordpress.com/2015/12/16/tis-the-season-for-some-deep-carols/)
 7. “We three layers o’ hidd’n units are” by Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/12/16/tis-the-season-for-some-deep-carols/
