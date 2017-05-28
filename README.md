@@ -35,5 +35,5 @@ This code was also used to create the following music compositions:
 11. 35,809 tunes at The Endless Traditional Music Session http://www.eecs.qmul.ac.uk/~sturm/research/RNNIrishTrad/index.html 
 
 # Media
-March 31 2017, ‘Machine folk’ music composed by AI shows technology’s creative side, The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
-May 26 2017 The Daily Mail named our project "Bot Dylan" (http://www.dailymail.co.uk/sciencetech/article-4544400/Researchers-create-computer-writes-folk-music.html), and then didn't even link to this page. Plus the video they edited has no computer-generated music in it. Well done!
+1. March 31 2017, ‘Machine folk’ music composed by AI shows technology’s creative side, The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
+2. May 26 2017 The Daily Mail named our project "Bot Dylan" (http://www.dailymail.co.uk/sciencetech/article-4544400/Researchers-create-computer-writes-folk-music.html), and then didn't even link to this page. Plus the video they edited has no computer-generated music in it. Well done!
