@@ -33,3 +33,5 @@ This code was also used to create the following music compositions:
 9. "The Castle Star" by folk-rnn + Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/08/12/deep-learning-for-assisting-the-process-of-music-composition-part-2/
 10. "The Doutlace" by folk-rnn + Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/08/11/deep-learning-for-assisting-the-process-of-music-composition-part-1/
 11. 35,809 tunes at The Endless Traditional Music Session http://www.eecs.qmul.ac.uk/~sturm/research/RNNIrishTrad/index.html 
+
+The Daily Mail named our project "Bot Dylan" (http://www.dailymail.co.uk/sciencetech/article-4544400/Researchers-create-computer-writes-folk-music.html), and then didn't even link to this page. Plus the video they edited has no computer-generated music in it. Well done!
