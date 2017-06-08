@@ -15,7 +15,7 @@ This code was used for the following published works:
 This code was also used to create the following music compositions:
 
 1. "Bastard Tunes" by Oded Ben-Tal + folk-rnn (2017) https://www.youtube.com/playlist?list=PLdTpPwVfxuXpQ03F398HH463SAE0vR2X8
-1. "The Fortootuise Pollo" by Bob L. Sturm + folk-rnn (2017) https://soundcloud.com/sturmen-1/the-fortootuise-pollo
+1. "The Fortootuise Pollo" by Bob L. Sturm + folk-rnn (2017) https://soundcloud.com/sturmen-1/the-fortootuise-pollo-1
 1. "Chicken Bits and Bits and Bobs" by Bob L. Sturm + folk-rnn (2017) https://youtu.be/n-avS-ozrqU
 3. "March to the Mainframe" by Bob L. Sturm + folk-rnn (2017) https://youtu.be/TLzBcMvl15M?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o
 4. "Interlude" by Bob L. Sturm + folk-rnn (2017) https://youtu.be/NZ08dDdYh3U?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/interlude-synthesised)
