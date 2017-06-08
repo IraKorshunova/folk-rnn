@@ -20,6 +20,9 @@ This code was also used to create the following music compositions:
 3. "March to the Mainframe" by Bob L. Sturm + folk-rnn (2017) https://youtu.be/TLzBcMvl15M?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o
 4. "Interlude" by Bob L. Sturm + folk-rnn (2017) https://youtu.be/NZ08dDdYh3U?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/interlude-synthesised)
 5. "The Humours of Time Pigeon" by Bob L. Sturm + folk-rnn (2017) https://youtu.be/1xBisQK8-3E?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/the-humours-time-pigeon-synthesised)
+5. "The Glas Herry Comment" by folk-rnn + DeepBach (2017) https://youtu.be/y9xJl-ljOuA
+5. X:7153 by folk-rnn + DeepBach (2017) https://youtu.be/tdKCzAyynu4
+5. X:633 by folk-rnn + DeepBach (2017) https://youtu.be/BUIrbZS5eXc
 6. "It came out from a pretrained net" by Bob L. Sturm + folk-rnn (2016) https://highnoongmt.wordpress.com/2015/12/16/tis-the-season-for-some-deep-carols/
 6. The folk-rnn Session Book Volume 1, transcriptions 1469, 1470 & 1472 by folk-rnn + Torbjorn Hultmark (2016) https://youtu.be/4kLxvJ-rXDs
 6. "The Ranston Cassock" by Bob L. Sturm + folk-rnn (2016) https://youtu.be/JZ-47IavYAU
