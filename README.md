@@ -6,11 +6,9 @@ This code was used for the following published works:
 
 2. Sturm, Santos, Ben-Tal and Korshunova, "Music transcription modelling and composition using deep learning", in Proc. [1st Conf. Computer Simulation of Musical Creativity](https://csmc2016.wordpress.com), Huddersfield, UK, July 2016.
 
-3. Sturm and Ben-Tal, "‘Machine folk’ music composed by AI shows technology’s creative side" https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708
+4. Sturm and Ben-Tal, Bringing the models back to music practice: The evaluation of deep learning approaches to music transcription modelling and generation,” J. Creative Music Systems, 2016 (in press).
 
 4. The folk-rnn Session Book Volume 1 of 10 https://highnoongmt.wordpress.com/2016/09/12/folk-rnn-session-tunes-volume-1-of-10/
-
-4. Sturm and Ben-Tal, Bringing the models back to music practice: The evaluation of deep learning approaches to music transcription modelling and generation,” J. Creative Music Systems, 2016 (in press).
 
 This code was also used to create the following music compositions:
 
