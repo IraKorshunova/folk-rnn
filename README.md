@@ -44,3 +44,4 @@ This code was also used to create the following music compositions:
 2. June 3 2017, "An A.I. in London is Writing Its Own Music and It Sounds Heavenly" https://www.inverse.com/article/32276-folk-music-ai-folk-rnn-musician-s-best-friend
 2. June 8 2017, "Computer program created to write Irish trad tunes" http://www.irishtimes.com/business/technology/computer-program-created-to-write-irish-trad-tunes-1.3112238
 2. May 26 2017 The Daily Mail named our project "Bot Dylan" (http://www.dailymail.co.uk/sciencetech/article-4544400/Researchers-create-computer-writes-folk-music.html), and then didn't even link to this page. Plus the video they edited has no computer-generated music in it. Well done!
+2. April 13 2017 “Eine Maschine meistert traditionelle Folk-Music” http://www.srf.ch/kultur/netzwelt/eine-maschine-meistert-traditionelle-folk-music 
