@@ -24,7 +24,7 @@ This code was also used to create the following music compositions:
 5. X:633 by folk-rnn + DeepBach (2017) https://youtu.be/BUIrbZS5eXc
 6. "It came out from a pretrained net" by Bob L. Sturm + folk-rnn (2016) https://highnoongmt.wordpress.com/2015/12/16/tis-the-season-for-some-deep-carols/
 6. The folk-rnn Session Book Volume 1, transcriptions 1469, 1470 & 1472 by folk-rnn + Torbjorn Hultmark (2016) https://youtu.be/4kLxvJ-rXDs
-6. "The Ranston Cassock" by Bob L. Sturm + folk-rnn (2016) https://youtu.be/JZ-47IavYAU
+6. "The Ranston Cassock" by Bob L. Sturm + folk-rnn (2016) https://youtu.be/JZ-47IavYAU (Version for viola and tape: https://highnoongmt.wordpress.com/2017/06/18/the-ranston-cassock-take-2/)
 6. "The Millennial Whoop Reel" by Bob L. Sturm + folk-rnn (2016) https://highnoongmt.wordpress.com/2016/08/29/millennial-whoop-with-derp-learning-a-reel/
 6. "The Millennial Whoop Jig" by Bob L. Sturm + folk-rnn (2016) https://highnoongmt.wordpress.com/2016/08/28/millennial-whoop-with-derp-learning/
 6. "Eight Short Outputs ..." by folk-rnn + Bob L. Sturm (2015) https://youtu.be/RaO4HpM07hE
