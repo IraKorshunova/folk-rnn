@@ -7,3 +7,7 @@ This is the data we have used.
 2. allabcwrepeats_parsed: This is the above but cleaned again (see paper), and tokenised.
 
 3. allabcworepeats_parsed: This is the above but with the repeats made explicit (converting to midi and back to abc)
+
+4. allabcwrepeats_parsed_wot: This is version 3 of the dataset from thesession.org. In this version, we transpose all tunes to have the root C, transpose them all to have the root C#, remove the titles, and make new mode tokens, K:maj, K:min, K:dor, and K:mix. There are over 46,000 transcriptions here.
+
+4. midi.tgz: This is a dataset of MIDI files created from the ABC transcriptions in the file, "temp.txt". See buildset.sh for details. This comes from allabcwrepeats_parsed_wot.
