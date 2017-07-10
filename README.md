@@ -15,10 +15,10 @@ This code was also used to create the following music compositions:
 1. "Bastard Tunes" by Oded Ben-Tal + folk-rnn (2017) https://www.youtube.com/playlist?list=PLdTpPwVfxuXpQ03F398HH463SAE0vR2X8
 1. "Safe Houses" by Úna Monaghan + folk-rnn (for concertina and tape, 2017)
 1. "The Fortootuise Pollo" by Bob L. Sturm + folk-rnn (2017) https://soundcloud.com/sturmen-1/the-fortootuise-pollo-1
-1. "Chicken Bits and Bits and Bobs" by Bob L. Sturm + folk-rnn (2017) https://youtu.be/n-avS-ozrqU
-3. "March to the Mainframe" by Bob L. Sturm + folk-rnn (2017) https://youtu.be/TLzBcMvl15M?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o
-4. "Interlude" by Bob L. Sturm + folk-rnn (2017) https://youtu.be/NZ08dDdYh3U?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/interlude-synthesised)
-5. "The Humours of Time Pigeon" by Bob L. Sturm + folk-rnn (2017) https://youtu.be/1xBisQK8-3E?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/the-humours-time-pigeon-synthesised)
+1. "Chicken Bits and Bits and Bobs" by Bob L. Sturm + folk-rnn (2017) https://youtu.be/n-avS-ozrqU Score is here: https://highnoongmt.files.wordpress.com/2017/04/sturm_chicken.pdf
+3. "March to the Mainframe" by Bob L. Sturm + folk-rnn (2017) https://youtu.be/TLzBcMvl15M?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o Score is here: https://highnoongmt.files.wordpress.com/2017/05/twoshortpieceswithaninterlude.pdf
+4. "Interlude" by Bob L. Sturm + folk-rnn (2017) https://youtu.be/NZ08dDdYh3U?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/interlude-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/05/twoshortpieceswithaninterlude.pdf
+5. "The Humours of Time Pigeon" by Bob L. Sturm + folk-rnn (2017) https://youtu.be/1xBisQK8-3E?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/the-humours-time-pigeon-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/05/twoshortpieceswithaninterlude.pdf
 5. "The Glas Herry Comment" by folk-rnn + DeepBach (2017) https://youtu.be/y9xJl-ljOuA
 5. X:7153 by folk-rnn + DeepBach (2017) https://youtu.be/tdKCzAyynu4
 5. X:633 by folk-rnn + DeepBach (2017) https://youtu.be/BUIrbZS5eXc
