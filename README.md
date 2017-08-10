@@ -8,7 +8,8 @@ This code was used for the following published works:
 
 1. Sturm, Santos and Korshunova, ["Folk Music Style Modelling by Recurrent Neural Networks with Long Short Term Memory Units"](http://ismir2015.uma.es/LBD/LBD13.pdf), Late-breaking demo at the 2015 Int. Symposium on Music Information Retrieval
 
-4. The folk-rnn Session Book Volume 1 of 10 https://highnoongmt.wordpress.com/2016/09/12/folk-rnn-session-tunes-volume-1-of-10/
+4. The folk-rnn Session Book Volumes 1--10, and The folk-rnn v3 Session Book Volumes 1--4 https://highnoongmt.wordpress.com/2017/08/10/folk-rnn-session-books-volumes-1-10-and-v3-volumes-1-4/
+
 
 This code was also used to create the following music compositions:
 
