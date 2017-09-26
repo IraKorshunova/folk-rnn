@@ -20,29 +20,29 @@ This code was also used to create the following music compositions:
 4. "Interlude" by Bob L. Sturm + folk-rnn (v2) (2017) https://youtu.be/NZ08dDdYh3U?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/interlude-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/05/twoshortpieceswithaninterlude.pdf
 5. "The Humours of Time Pigeon" by Bob L. Sturm + folk-rnn (v1) (2017) https://youtu.be/1xBisQK8-3E?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/the-humours-time-pigeon-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/05/twoshortpieceswithaninterlude.pdf
 1. "Chicken Bits and Bits and Bobs" by Bob L. Sturm + folk-rnn (v1) (2017) https://youtu.be/n-avS-ozrqU Score is here: https://highnoongmt.files.wordpress.com/2017/04/sturm_chicken.pdf
+6. "The Ranston Cassock" by Bob L. Sturm + folk-rnn (v1) (2016) https://youtu.be/JZ-47IavYAU (Version for viola and tape: https://highnoongmt.wordpress.com/2017/06/18/the-ranston-cassock-take-2/)
 2. Tunes by folk-rnn harmonised by DeepBach (2017)
     1. "The Glas Herry Comment" by folk-rnn (v1) + DeepBach (2017) https://youtu.be/y9xJl-ljOuA
     1. X:633 by folk-rnn (v2) + DeepBach (2017) https://youtu.be/BUIrbZS5eXc
     1. X:7153 by folk-rnn (v2) + DeepBach (2017) https://youtu.be/tdKCzAyynu4
 5. Tunes from the [folk-rnn v2 session volumes](https://highnoongmt.wordpress.com/2017/08/10/folk-rnn-session-books-volumes-1-10-and-v3-volumes-1-4/)
-  * Transcriptions 1469, 1470 & 1472 by folk-rnn + Torbjorn Hultmark (2016) https://youtu.be/4kLxvJ-rXDs
-  * X:488 by folk-rnn (v2) (2017) https://youtu.be/QWvlnOqlSes played by EECSers June 29 2017 https://youtu.be/QWvlnOqlSes
+    1. Transcriptions 1469, 1470 & 1472 by folk-rnn + Torbjorn Hultmark (2016) https://youtu.be/4kLxvJ-rXDs
+    1. X:488 by folk-rnn (v2) (2017) https://youtu.be/QWvlnOqlSes played by EECSers June 29 2017 https://youtu.be/QWvlnOqlSes
 
 5. Tunes from the [folk-rnn v3 session volumes](https://highnoongmt.wordpress.com/2017/08/10/folk-rnn-session-books-volumes-1-10-and-v3-volumes-1-4/)
-  * "The 2714 Polka" by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/10/the-2714-polka-a-folk-rnn-original/
-  * X:1166 by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/16/folk-rnn-v3-tune-1166/
-  * X:1650 by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/17/folk-rnn-v3-tune-1650/
-  * X:6197 by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/25/folk-rnn-v3-tune-6197/
+    1. "The 2714 Polka" by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/10/the-2714-polka-a-folk-rnn-original/
+    1. X:1166 by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/16/folk-rnn-v3-tune-1166/
+    1. X:1650 by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/17/folk-rnn-v3-tune-1650/
+    1. X:6197 by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/25/folk-rnn-v3-tune-6197/
 5. Tunes from folk-rnn v1
-  * "Optoly Louden" by folk-rnn (v1) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/07/01/optoly-louden-a-folk-rnn-original/
-  * "Bonny An Ade Nullway" by folk-rnn (v1) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/18/bobby-an-ade-nullway-a-folk-rnn-v1-tune/
-  * "The Drunken Pint" by folk-rnn (v1) (2015) https://youtu.be/omHhyVD3PD8 (played by EECSers June 29 2017 https://youtu.be/0gosLln8Org)
-  * "The Glas Herry Comment" by folk-rnn (v1) (2015) https://youtu.be/QZh0WSjFFDs (played by EECSers June 29 2017 https://youtu.be/NiUAZBLh2t0)
-  * "The Mal's Copporim" by folk-rnn (v1) (2015) https://youtu.be/YMbWwU2JdLg (played by EECSers June 29 2017 https://youtu.be/HOPz71Bx714)
-  * "The Castle Star" by folk-rnn (v1) + Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/08/12/deep-learning-for-assisting-the-process-of-music-composition-part-2/
-  * "The Doutlace" by folk-rnn (v1) + Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/08/11/deep-learning-for-assisting-the-process-of-music-composition-part-1/
+    1. "Optoly Louden" by folk-rnn (v1) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/07/01/optoly-louden-a-folk-rnn-original/
+    1. "Bonny An Ade Nullway" by folk-rnn (v1) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/18/bobby-an-ade-nullway-a-folk-rnn-v1-tune/
+    1. "The Drunken Pint" by folk-rnn (v1) (2015) https://youtu.be/omHhyVD3PD8 (played by EECSers June 29 2017 https://youtu.be/0gosLln8Org)
+    1. "The Glas Herry Comment" by folk-rnn (v1) (2015) https://youtu.be/QZh0WSjFFDs (played by EECSers June 29 2017 https://youtu.be/NiUAZBLh2t0)
+    1. "The Mal's Copporim" by folk-rnn (v1) (2015) https://youtu.be/YMbWwU2JdLg (played by EECSers June 29 2017 https://youtu.be/HOPz71Bx714)
+    1. "The Castle Star" by folk-rnn (v1) + Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/08/12/deep-learning-for-assisting-the-process-of-music-composition-part-2/
+    1. "The Doutlace" by folk-rnn (v1) + Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/08/11/deep-learning-for-assisting-the-process-of-music-composition-part-1/
 6. "It came out from a pretrained net" by Bob L. Sturm + folk-rnn (v2) (2016) https://highnoongmt.wordpress.com/2015/12/16/tis-the-season-for-some-deep-carols/
-6. "The Ranston Cassock" by Bob L. Sturm + folk-rnn (v1) (2016) https://youtu.be/JZ-47IavYAU (Version for viola and tape: https://highnoongmt.wordpress.com/2017/06/18/the-ranston-cassock-take-2/)
 6. "The Millennial Whoop Reel" by Bob L. Sturm + folk-rnn (v2) (2016) https://highnoongmt.wordpress.com/2016/08/29/millennial-whoop-with-derp-learning-a-reel/
 6. "The Millennial Whoop Jig" by Bob L. Sturm + folk-rnn (v2) (2016) https://highnoongmt.wordpress.com/2016/08/28/millennial-whoop-with-derp-learning/
 6. "Eight Short Outputs ..." by folk-rnn (v1) + Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/12/20/eight-short-outputs-now-on-youtube/
