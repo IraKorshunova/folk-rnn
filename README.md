@@ -21,14 +21,14 @@ This code was also used to create the following music compositions:
 5. "The Humours of Time Pigeon" by Bob L. Sturm + folk-rnn (v1) (2017) https://youtu.be/1xBisQK8-3E?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/the-humours-time-pigeon-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/05/twoshortpieceswithaninterlude.pdf
 1. "Chicken Bits and Bits and Bobs" by Bob L. Sturm + folk-rnn (v1) (2017) https://youtu.be/n-avS-ozrqU Score is here: https://highnoongmt.files.wordpress.com/2017/04/sturm_chicken.pdf
 2. Tunes by folk-rnn harmonised by DeepBach (2017)
- 1. "The Glas Herry Comment" by folk-rnn (v1) + DeepBach (2017) https://youtu.be/y9xJl-ljOuA
- 2. X:633 by folk-rnn (v2) + DeepBach (2017) https://youtu.be/BUIrbZS5eXc
- 3. X:7153 by folk-rnn (v2) + DeepBach (2017) https://youtu.be/tdKCzAyynu4
+   1. "The Glas Herry Comment" by folk-rnn (v1) + DeepBach (2017) https://youtu.be/y9xJl-ljOuA
+   2. X:633 by folk-rnn (v2) + DeepBach (2017) https://youtu.be/BUIrbZS5eXc
+   3. X:7153 by folk-rnn (v2) + DeepBach (2017) https://youtu.be/tdKCzAyynu4
 5. Tunes from the [folk-rnn v2 session volumes](https://highnoongmt.wordpress.com/2017/08/10/folk-rnn-session-books-volumes-1-10-and-v3-volumes-1-4/)
   * Transcriptions 1469, 1470 & 1472 by folk-rnn + Torbjorn Hultmark (2016) https://youtu.be/4kLxvJ-rXDs
   * X:488 by folk-rnn (v2) (2017) https://youtu.be/QWvlnOqlSes played by EECSers June 29 2017 https://youtu.be/QWvlnOqlSes
 5. Tunes from the [folk-rnn v3 session volumes](https://highnoongmt.wordpress.com/2017/08/10/folk-rnn-session-books-volumes-1-10-and-v3-volumes-1-4/)
-  1. "The 2714 Polka" by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/10/the-2714-polka-a-folk-rnn-original/
+   1. "The 2714 Polka" by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/10/the-2714-polka-a-folk-rnn-original/
   2. X:1166 by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/16/folk-rnn-v3-tune-1166/
   3. X:1650 by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/17/folk-rnn-v3-tune-1650/
   4. X:6197 by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/25/folk-rnn-v3-tune-6197/
