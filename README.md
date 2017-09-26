@@ -20,15 +20,18 @@ This code was also used to create the following music compositions:
 3. "March to the Mainframe" by Bob L. Sturm + folk-rnn (v2) (2017) https://youtu.be/TLzBcMvl15M?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o Score is here: https://highnoongmt.files.wordpress.com/2017/05/twoshortpieceswithaninterlude.pdf
 4. "Interlude" by Bob L. Sturm + folk-rnn (v2) (2017) https://youtu.be/NZ08dDdYh3U?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/interlude-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/05/twoshortpieceswithaninterlude.pdf
 5. "The Humours of Time Pigeon" by Bob L. Sturm + folk-rnn (v1) (2017) https://youtu.be/1xBisQK8-3E?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/the-humours-time-pigeon-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/05/twoshortpieceswithaninterlude.pdf
-5. "The 2714 Polka" by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/10/the-2714-polka-a-folk-rnn-original/
+5. Solo pieces from the folk-rnn v2 session volumes
+  * X:488 by folk-rnn (v2) (2017) https://youtu.be/QWvlnOqlSes played by EECSers June 29 2017 https://youtu.be/QWvlnOqlSes
+5. Solo pieces from the folk-rnn v3 session volumes
+  * "The 2714 Polka" by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/10/the-2714-polka-a-folk-rnn-original/
+  * X:1166 by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/16/folk-rnn-v3-tune-1166/
+  * X:1650 by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/17/folk-rnn-v3-tune-1650/
+  * X:6197 by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/25/folk-rnn-v3-tune-6197/
 5. "The Glas Herry Comment" by folk-rnn (v1) + DeepBach (2017) https://youtu.be/y9xJl-ljOuA
 5. X:7153 by folk-rnn (v2) + DeepBach (2017) https://youtu.be/tdKCzAyynu4
 5. X:633 by folk-rnn (v2) + DeepBach (2017) https://youtu.be/BUIrbZS5eXc
 5. "Optoly Louden" by folk-rnn (v1) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/07/01/optoly-louden-a-folk-rnn-original/
 6. "Bonny An Ade Nullway" by folk-rnn (v1) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/18/bobby-an-ade-nullway-a-folk-rnn-v1-tune/
-6. X:1166 by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/16/folk-rnn-v3-tune-1166/
-6. X:1650 by folk-rnn (v3) + Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/17/folk-rnn-v3-tune-1650/
-6. X:488 by folk-rnn (v2) (2017) https://youtu.be/QWvlnOqlSes played by EECSers June 29 2017 https://youtu.be/QWvlnOqlSes
 6. "It came out from a pretrained net" by Bob L. Sturm + folk-rnn (v2) (2016) https://highnoongmt.wordpress.com/2015/12/16/tis-the-season-for-some-deep-carols/
 6. The folk-rnn (v2) Session Book Volume 1, transcriptions 1469, 1470 & 1472 by folk-rnn + Torbjorn Hultmark (2016) https://youtu.be/4kLxvJ-rXDs
 6. "The Ranston Cassock" by Bob L. Sturm + folk-rnn (v1) (2016) https://youtu.be/JZ-47IavYAU (Version for viola and tape: https://highnoongmt.wordpress.com/2017/06/18/the-ranston-cassock-take-2/)
