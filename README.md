@@ -10,8 +10,9 @@ This code was used for the following published works:
 
 4. The folk-rnn Session Book Volumes 1--10, and The folk-rnn v3 Session Book Volumes 1--4 https://highnoongmt.wordpress.com/2017/08/10/folk-rnn-session-books-volumes-1-10-and-v3-volumes-1-4/
 
+11. 47,000+ tunes at The Endless folk-rnn Traditional Music Session http://www.eecs.qmul.ac.uk/~sturm/research/RNNIrishTrad/index.html 
 
-This code was also used to create the following music compositions:
+# Music compositions resulting from versions of this code:
 
 1. "Bastard Tunes" by Oded Ben-Tal + folk-rnn (v2) (2017) https://www.youtube.com/playlist?list=PLdTpPwVfxuXpQ03F398HH463SAE0vR2X8
 1. "Safe Houses" by Úna Monaghan + folk-rnn (v2) (for concertina and tape, 2017)
@@ -48,7 +49,6 @@ This code was also used to create the following music compositions:
 6. "Eight Short Outputs ..." by folk-rnn (v1) + Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/12/20/eight-short-outputs-now-on-youtube/
 7. “We three layers o’ hidd’n units are” by Bob L. Sturm + folk-rnn (v2) (2015) https://highnoongmt.wordpress.com/2015/12/16/tis-the-season-for-some-deep-carols/
 8. "The March of Deep Learning" by Bob L. Sturm + folk-rnn (v1) (2015) https://highnoongmt.wordpress.com/2015/08/15/deep-learning-for-assisting-the-process-of-music-composition-part-4/
-11. 47,000+ tunes at The Endless folk-rnn Traditional Music Session http://www.eecs.qmul.ac.uk/~sturm/research/RNNIrishTrad/index.html 
 
 # Media
 1. March 31 2017, ‘Machine folk’ music composed by AI shows technology’s creative side, The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
