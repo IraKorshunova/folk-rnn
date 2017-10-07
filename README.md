@@ -29,6 +29,7 @@ This code was used for the following published works:
 5. Tunes from the [folk-rnn v2 session volumes](https://highnoongmt.wordpress.com/2017/08/10/folk-rnn-session-books-volumes-1-10-and-v3-volumes-1-4/)
     1. Transcriptions 1469, 1470 & 1472 performed by Torbjorn Hultmark (2016) https://youtu.be/4kLxvJ-rXDs
     1. X:488 performed by Bob L. Sturm (2017) https://youtu.be/QWvlnOqlSes; performed by EECSers (2017) https://youtu.be/QWvlnOqlSes
+    2. X:4542 adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/10/06/folk-rnn-v2-tune-4542/
 
 5. Tunes from the [folk-rnn v3 session volumes](https://highnoongmt.wordpress.com/2017/08/10/folk-rnn-session-books-volumes-1-10-and-v3-volumes-1-4/)
     1. "The 2714 Polka" adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/10/the-2714-polka-a-folk-rnn-original/
