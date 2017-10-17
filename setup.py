@@ -4,12 +4,6 @@ from setuptools import setup, find_packages
 from codecs import open
 from os import path
 
-here = path.abspath(path.dirname(__file__))
-
-# Get the long description from the README file
-with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
-    long_description = f.read()
-
 setup(
     name='folk-rnn',
 
@@ -19,7 +13,7 @@ setup(
     version='0.9.0',
 
     description='Folk music style modelling using LSTMs',
-    long_description=long_description,
+    long_description='Long version to be converted from README markdown to ReStructuredText if this ever is uploaded to PyPi. https://stackoverflow.com/a/26737672',
 
     # The project's main homepage.
     url='https://github.com/IraKorshunova/folk-rnn',
