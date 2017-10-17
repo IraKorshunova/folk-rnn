@@ -61,7 +61,7 @@ setup(
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
     install_requires=[
-        'theano',
+        'theano<0.8',
         'lasagne',
         ],
 
