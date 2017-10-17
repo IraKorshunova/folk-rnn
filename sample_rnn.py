@@ -107,13 +107,13 @@ for i in xrange(ntunes):
     abc_tune = [idx2token[j] for j in sequence[1:-1]]
     if not args.terminal:
         f = open(target_path, 'a+')
-	f.write('X:' + repr(i) + '\n')
+        f.write('X:' + repr(i) + '\n')
         f.write(abc_tune[0] + '\n')
         f.write(abc_tune[1] + '\n')
         f.write(' '.join(abc_tune[2:]) + '\n\n')
         f.close()
     else:
-	print('X:' + repr(i))
+        print('X:' + repr(i))
         print(abc_tune[0])
         print(abc_tune[1])
         print(' '.join(abc_tune[2:]) + '\n')
