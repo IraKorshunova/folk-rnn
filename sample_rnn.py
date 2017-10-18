@@ -55,5 +55,12 @@ folk_rnn = Folk_RNN(
     )
 folk_rnn.seed_tune(seed)
 for i in xrange(ntunes):
-    print(folk_rnn.compose_tune())
+    tune = 'X:{}\n{}\n'.format(i, folk_rnn.compose_tune())
+    if args.terminal:
+        print(tune)
+    else:
+        with open(target_path, 'a+') as f:
+            f.write(tune)
+        print('Saved to {}'.format(target_path))
+    
     
