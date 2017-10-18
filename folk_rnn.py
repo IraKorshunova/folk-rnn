@@ -68,7 +68,7 @@ class Folk_RNN:
         l_reshp = ReshapeLayer(main_layers[-1], (-1, rnn_size))
         l_out = DenseLayer(l_reshp, num_units=vocab_size, nonlinearity=lasagne.nonlinearities.identity)
         predictions = T.nnet.softmax(lasagne.layers.get_output(l_out, deterministic=True)[-1, :] / temperature)[0]
-        lasagne.layers.set_all_param_values(l_out, param_values) # Toby Question: does this affect the result?
+        lasagne.layers.set_all_param_values(l_out, param_values)
         
         if self.debug:
             all_layes = lasagne.layers.get_all_layers(l_out)
