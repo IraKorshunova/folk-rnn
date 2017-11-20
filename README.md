@@ -62,5 +62,6 @@ This code was used for the following published works:
 2. June 8 2017, "Computer program created to write Irish trad tunes" http://www.irishtimes.com/business/technology/computer-program-created-to-write-irish-trad-tunes-1.3112238
 3. June 19 2017 "Folk-RNN is the Loquantur Rhythm artist of June" (providing music for phone call waits) https://zc1.campaign-view.com/ua/SharedView?od=11287eca6b3187&cno=11a2b0b20c9c037&cd=12a539b2f47976f3&m=4 (Here is a sample: https://highnoongmt.wordpress.com/2017/06/17/deep-learning-on-hold/)
 3. June 18 2017, "Real Musicians Evaluate Music Made by Artificial Intelligence" https://motherboard.vice.com/en_us/article/irish-folk-music-ai
+4. June 1 2017, "Can an AI Machine Hold Copyright Protection Over Its Work?" https://artlawjournal.com/ai-machine-copyright/
 2. May 26 2017 The Daily Mail named our project "Bot Dylan" (http://www.dailymail.co.uk/sciencetech/article-4544400/Researchers-create-computer-writes-folk-music.html), and then didn't even link to this page. Plus the video they edited has no computer-generated music in it. Well done!
 2. April 13 2017 “Eine Maschine meistert traditionelle Folk-Music” http://www.srf.ch/kultur/netzwelt/eine-maschine-meistert-traditionelle-folk-music 
