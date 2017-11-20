@@ -8,7 +8,7 @@ This code was used for the following published works:
 
 1. Sturm, Santos and Korshunova, ["Folk Music Style Modelling by Recurrent Neural Networks with Long Short Term Memory Units"](http://ismir2015.uma.es/LBD/LBD13.pdf), Late-breaking demo at the 2015 Int. Symposium on Music Information Retrieval
 
-4. The folk-rnn Session Book Volumes 1--10, and The folk-rnn v3 Session Book Volumes 1--4 https://highnoongmt.wordpress.com/2017/08/10/folk-rnn-session-books-volumes-1-10-and-v3-volumes-1-4/
+4. The folk-rnn v2 Session Book Volumes 1--10, and The folk-rnn v3 Session Book Volumes 1--4 https://highnoongmt.wordpress.com/2017/08/10/folk-rnn-session-books-volumes-1-10-and-v3-volumes-1-4/
 
 11. 47,000+ tunes at The Endless folk-rnn Traditional Music Session http://www.eecs.qmul.ac.uk/~sturm/research/RNNIrishTrad/index.html 
 
@@ -58,6 +58,7 @@ This code was used for the following published works:
 
 # Media
 1. March 31 2017, ‘Machine folk’ music composed by AI shows technology’s creative side, The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
+2. Nov. 18, 2017 Le Tube avec Stéphane Bern et Laurence Bloch, France http://www.canalplus.fr/emissions/pid8584-le-tube.html
 2. June 3 2017, "An A.I. in London is Writing Its Own Music and It Sounds Heavenly" https://www.inverse.com/article/32276-folk-music-ai-folk-rnn-musician-s-best-friend
 2. June 8 2017, "Computer program created to write Irish trad tunes" http://www.irishtimes.com/business/technology/computer-program-created-to-write-irish-trad-tunes-1.3112238
 3. June 19 2017 "Folk-RNN is the Loquantur Rhythm artist of June" (providing music for phone call waits) https://zc1.campaign-view.com/ua/SharedView?od=11287eca6b3187&cno=11a2b0b20c9c037&cd=12a539b2f47976f3&m=4 (Here is a sample: https://highnoongmt.wordpress.com/2017/06/17/deep-learning-on-hold/)
