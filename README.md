@@ -1,3 +1,5 @@
+![My image](https://github.com/IraKorshunova/folk-rnn/blob/master/folkrnn_logo.png)
+
 # Folk music style modelling using LSTMs
 
 This code was used for the following published works:
