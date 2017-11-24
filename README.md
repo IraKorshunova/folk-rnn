@@ -28,6 +28,7 @@ This code was used for the following published works:
     1. X:7153 by folk-rnn (v2) + DeepBach (2017) https://youtu.be/tdKCzAyynu4
 
 5. Tunes from folk-rnn v1
+    1. "The Irish Show" adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/11/23/folk-rnn-v1-tune-the-irish-show/
     1. "Sean No Cottifall" adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/11/11/folk-rnn-v1-tune-sean-no-cottifall/
     1. "Optoly Louden" adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/07/01/optoly-louden-a-folk-rnn-original/
     1. "Bonny An Ade Nullway" adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/18/bobby-an-ade-nullway-a-folk-rnn-v1-tune/
