@@ -53,7 +53,7 @@ This code was used for the following published works:
     1. X:6197 adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/25/folk-rnn-v3-tune-6197/
     2. X:8589 (A Derp Deep Learning Ditty) adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/10/08/a-derp-deep-learning-ditty/
 
-6. "It came out from a pretrained net" by Bob L. Sturm + folk-rnn (v2) (2016) https://highnoongmt.wordpress.com/2015/12/16/tis-the-season-for-some-deep-carols/
+6. "It came out from a pretrained net" by Bob L. Sturm + folk-rnn (v2) (2016) https://highnoongmt.wordpress.com/2016/12/24/taking-a-christmas-carol-toward-the-dodecaphonic-by-derp-learning/
 6. "The Millennial Whoop Reel" by Bob L. Sturm + folk-rnn (v2) (2016) https://highnoongmt.wordpress.com/2016/08/29/millennial-whoop-with-derp-learning-a-reel/
 6. "The Millennial Whoop Jig" by Bob L. Sturm + folk-rnn (v2) (2016) https://highnoongmt.wordpress.com/2016/08/28/millennial-whoop-with-derp-learning/
 6. "Eight Short Outputs ..." by folk-rnn (v1) + Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/12/20/eight-short-outputs-now-on-youtube/
