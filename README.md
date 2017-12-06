@@ -26,6 +26,7 @@ This code was used for the following published works:
 6. "The Ranston Cassock" by Bob L. Sturm + folk-rnn (v1) (2016) https://youtu.be/JZ-47IavYAU (Version for viola and tape: https://highnoongmt.wordpress.com/2017/06/18/the-ranston-cassock-take-2/)
 2. Tunes by folk-rnn harmonised by DeepBach (2017)
     1. "The Glas Herry Comment" by folk-rnn (v1) + DeepBach (2017) https://youtu.be/y9xJl-ljOuA
+    1. "The Drunken Pint" by folk-rnn (v1) + DeepBach (2017) https://youtu.be/xJyp7vBNVA0
     1. X:633 by folk-rnn (v2) + DeepBach (2017) https://youtu.be/BUIrbZS5eXc
     1. X:7153 by folk-rnn (v2) + DeepBach (2017) https://youtu.be/tdKCzAyynu4
 
