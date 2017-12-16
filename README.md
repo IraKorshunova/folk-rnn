@@ -19,9 +19,9 @@ This code was used for the following published works:
 1. "Bastard Tunes" by Oded Ben-Tal + folk-rnn (v2) (2017) https://www.youtube.com/playlist?list=PLdTpPwVfxuXpQ03F398HH463SAE0vR2X8
 1. "Safe Houses" by Úna Monaghan + folk-rnn (v2) (for concertina and tape, 2017)
 1. "The Fortootuise Pollo" by Bob L. Sturm + folk-rnn (v1) (2017) https://soundcloud.com/sturmen-1/the-fortootuise-pollo-1
-3. "March to the Mainframe" by Bob L. Sturm + folk-rnn (v2) (2017) https://youtu.be/TLzBcMvl15M?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o Score is here: https://highnoongmt.files.wordpress.com/2017/05/twoshortpieceswithaninterlude.pdf
-4. "Interlude" by Bob L. Sturm + folk-rnn (v2) (2017) https://youtu.be/NZ08dDdYh3U?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/interlude-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/05/twoshortpieceswithaninterlude.pdf
-5. "The Humours of Time Pigeon" by Bob L. Sturm + folk-rnn (v1) (2017) https://youtu.be/1xBisQK8-3E?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/the-humours-time-pigeon-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/05/twoshortpieceswithaninterlude.pdf
+3. "March to the Mainframe" by Bob L. Sturm + folk-rnn (v2) (2017) https://youtu.be/TLzBcMvl15M?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o Score is here: https://highnoongmt.files.wordpress.com/2017/12/twoshortpieceswithaninterlude.pdf
+4. "Interlude" by Bob L. Sturm + folk-rnn (v2) (2017) https://youtu.be/NZ08dDdYh3U?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/interlude-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/12/twoshortpieceswithaninterlude.pdf
+5. "The Humours of Time Pigeon" by Bob L. Sturm + folk-rnn (v1) (2017) https://youtu.be/1xBisQK8-3E?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/the-humours-time-pigeon-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/12/twoshortpieceswithaninterlude.pdf
 1. "Chicken Bits and Bits and Bobs" by Bob L. Sturm + folk-rnn (v1) (2017) https://youtu.be/n-avS-ozrqU Score is here: https://highnoongmt.files.wordpress.com/2017/04/sturm_chicken.pdf
 6. "The Ranston Cassock" by Bob L. Sturm + folk-rnn (v1) (2016) https://youtu.be/JZ-47IavYAU (Version for viola and tape: https://highnoongmt.wordpress.com/2017/06/18/the-ranston-cassock-take-2/)
 2. Tunes by folk-rnn harmonised by DeepBach (2017)
