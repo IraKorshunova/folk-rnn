@@ -17,7 +17,8 @@ This code was used for the following published works:
 # Music compositions resulting from versions of this code:
 
 1. "Bastard Tunes" by Oded Ben-Tal + folk-rnn (v2) (2017) https://www.youtube.com/playlist?list=PLdTpPwVfxuXpQ03F398HH463SAE0vR2X8
-1. "Safe Houses" by Úna Monaghan + folk-rnn (v2) (for concertina and tape, 2017)
+1. "Safe Houses" by Úna Monaghan + folk-rnn (v2) (for concertina and tape, 2017) https://youtu.be/x6LS9MbQj7Y
+1. "Dialogues with folk-rnn" by Luca Tuchet + folk-rnn (v2) (for smart mandolin, 2017) https://youtu.be/pkf3VqPieoo
 1. "The Fortootuise Pollo" by Bob L. Sturm + folk-rnn (v1) (2017) https://soundcloud.com/sturmen-1/the-fortootuise-pollo-1
 3. "March to the Mainframe" by Bob L. Sturm + folk-rnn (v2) (2017) https://youtu.be/TLzBcMvl15M?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o Score is here: https://highnoongmt.files.wordpress.com/2017/12/twoshortpieceswithaninterlude.pdf
 4. "Interlude" by Bob L. Sturm + folk-rnn (v2) (2017) https://youtu.be/NZ08dDdYh3U?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/interlude-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/12/twoshortpieceswithaninterlude.pdf
@@ -64,6 +65,7 @@ This code was used for the following published works:
 
 # Media
 1. March 31 2017, ‘Machine folk’ music composed by AI shows technology’s creative side, The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
+2. Dec. 23 2017 "AI Has Been Creating Music and the Results Are...Weird" PC Mag (http://uk.pcmag.com/news/92577/ai-has-been-creating-music-and-the-results-areweird)
 2. Nov. 18, 2017 Le Tube avec Stéphane Bern et Laurence Bloch, France http://www.canalplus.fr/emissions/pid8584-le-tube.html
 2. June 3 2017, "An A.I. in London is Writing Its Own Music and It Sounds Heavenly" https://www.inverse.com/article/32276-folk-music-ai-folk-rnn-musician-s-best-friend
 2. June 8 2017, "Computer program created to write Irish trad tunes" http://www.irishtimes.com/business/technology/computer-program-created-to-write-irish-trad-tunes-1.3112238
