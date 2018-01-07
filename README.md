@@ -32,7 +32,7 @@ This code was used for the following published works:
     1. X:633 by folk-rnn (v2) + DeepBach (2017) https://youtu.be/BUIrbZS5eXc
     1. X:7153 by folk-rnn (v2) + DeepBach (2017) https://youtu.be/tdKCzAyynu4
 
-5. Tunes from folk-rnn v1
+5. Tunes from [folk-rnn v1 session volumes](https://highnoongmt.wordpress.com/2018/01/05/volumes-1-20-of-folk-rnn-v1-transcriptions/)
     1. "The Cunning Storm" adapted and performed by Bob L. Sturm and Carla Sturm (2017) https://highnoongmt.wordpress.com/2018/01/07/the-cunning-storm-a-folk-rnn-v1-original/
     1. "The Irish Show" adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/11/23/folk-rnn-v1-tune-the-irish-show/
     1. "Sean No Cottifall" adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/11/11/folk-rnn-v1-tune-sean-no-cottifall/
@@ -44,13 +44,13 @@ This code was used for the following published works:
     1. "The Castle Star" adapted and performed by Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/08/12/deep-learning-for-assisting-the-process-of-music-composition-part-2/
     1. "The Doutlace" adapted and performed by Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/08/11/deep-learning-for-assisting-the-process-of-music-composition-part-1/
 
-5. Tunes from the [folk-rnn v2 session volumes](https://highnoongmt.wordpress.com/2017/08/10/folk-rnn-session-books-volumes-1-10-and-v3-volumes-1-4/)
+5. Tunes from the [folk-rnn v2 session volumes](https://highnoongmt.wordpress.com/2018/01/05/volumes-1-20-of-folk-rnn-v1-transcriptions/)
     1. Transcriptions 1469, 1470 & 1472 performed by Torbjorn Hultmark (2016) https://youtu.be/4kLxvJ-rXDs
     1. X:488 performed by Bob L. Sturm (2017) https://youtu.be/QWvlnOqlSes; performed by EECSers (2017) https://youtu.be/QWvlnOqlSes
     2. X:4542 adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/10/06/folk-rnn-v2-tune-4542/
     3. X:2857 adapted and performed by Bob L. Sturm and Carla Sturm (2017) https://highnoongmt.wordpress.com/2017/12/02/folk-rnn-v2-tune-2857/
 
-5. Tunes from the [folk-rnn v3 session volumes](https://highnoongmt.wordpress.com/2017/08/10/folk-rnn-session-books-volumes-1-10-and-v3-volumes-1-4/)
+5. Tunes from the [folk-rnn v3 session volumes](https://highnoongmt.wordpress.com/2018/01/05/volumes-1-20-of-folk-rnn-v1-transcriptions/)
     1. "The 2714 Polka" adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/10/the-2714-polka-a-folk-rnn-original/
     1. X:1166 adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/16/folk-rnn-v3-tune-1166/
     1. X:1650 adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/17/folk-rnn-v3-tune-1650/
