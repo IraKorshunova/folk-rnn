@@ -23,7 +23,6 @@ This code was used for the following published works:
 3. "March to the Mainframe" by Bob L. Sturm + folk-rnn (v2) (2017) https://youtu.be/TLzBcMvl15M?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o Score is here: https://highnoongmt.files.wordpress.com/2017/12/twoshortpieceswithaninterlude.pdf
 4. "Interlude" by Bob L. Sturm + folk-rnn (v2) (2017) https://youtu.be/NZ08dDdYh3U?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/interlude-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/12/twoshortpieceswithaninterlude.pdf
 5. "The Humours of Time Pigeon" by Bob L. Sturm + folk-rnn (v1) (2017) https://youtu.be/1xBisQK8-3E?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o (synthesized version: https://soundcloud.com/sturmen-1/the-humours-time-pigeon-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/12/twoshortpieceswithaninterlude.pdf
-6. "Carol of the Cells" by Bob L. Sturm + folk-rnn (v2) (2017) https://highnoongmt.wordpress.com/2017/12/16/carol-of-the-cells-from-the-ai-to-the-orchestra/
 1. "Chicken Bits and Bits and Bobs" by Bob L. Sturm + folk-rnn (v1) (2017) https://youtu.be/n-avS-ozrqU Score is here: https://highnoongmt.files.wordpress.com/2017/04/sturm_chicken.pdf
 6. "The Ranston Cassock" by Bob L. Sturm + folk-rnn (v1) (2016) https://youtu.be/JZ-47IavYAU (Version for viola and tape: https://highnoongmt.wordpress.com/2017/06/18/the-ranston-cassock-take-2/)
 2. Tunes by folk-rnn harmonised by DeepBach (2017)
@@ -33,7 +32,7 @@ This code was used for the following published works:
     1. X:7153 by folk-rnn (v2) + DeepBach (2017) https://youtu.be/tdKCzAyynu4
 
 5. Tunes from [folk-rnn v1 session volumes](https://highnoongmt.wordpress.com/2018/01/05/volumes-1-20-of-folk-rnn-v1-transcriptions/)
-    1. "The Cunning Storm" adapted and performed by Bob L. Sturm and Carla Sturm (2017) https://highnoongmt.wordpress.com/2018/01/07/the-cunning-storm-a-folk-rnn-v1-original/
+    1. "The Cunning Storm" adapted and performed by Bob L. Sturm and Carla Sturm (2018) https://highnoongmt.wordpress.com/2018/01/07/the-cunning-storm-a-folk-rnn-v1-original/
     1. "The Irish Show" adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/11/23/folk-rnn-v1-tune-the-irish-show/
     1. "Sean No Cottifall" adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/11/11/folk-rnn-v1-tune-sean-no-cottifall/
     1. "Optoly Louden" adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/07/01/optoly-louden-a-folk-rnn-original/
@@ -52,17 +51,21 @@ This code was used for the following published works:
 
 5. Tunes from the [folk-rnn v3 session volumes](https://highnoongmt.wordpress.com/2018/01/05/volumes-1-20-of-folk-rnn-v1-transcriptions/)
     1. "The 2714 Polka" adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/10/the-2714-polka-a-folk-rnn-original/
-    1. X:1166 adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/16/folk-rnn-v3-tune-1166/
+    1. X:1166 Performed by Weltsauerstoff (2018) https://soundcloud.com/weltsauerstoff/1166-conquest-of-brittany
+    1. X:1166 adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/16/folk-rnn-v3-tune-1166/, https://youtu.be/avxXRNJvUMk (2018)
     1. X:1650 adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/17/folk-rnn-v3-tune-1650/
     1. X:6197 adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/09/25/folk-rnn-v3-tune-6197/
     2. X:8589 (A Derp Deep Learning Ditty) adapted and performed by Bob L. Sturm (2017) https://highnoongmt.wordpress.com/2017/10/08/a-derp-deep-learning-ditty/
 
-6. "A Windy Canal" by folk-rnn (v2) and Bob L. Sturm (2017) https://soundcloud.com/sturmen-1/a-windy-canal
-7. "Experimental lobotomy of a deep network with subsequent stimulation (2)" by folk-rnn (v2 with lobotomy) and Bob L. Sturm, Carla Sturm (2017) https://soundcloud.com/sturmen-1/experimental-lobotomy-of-a-deep-network-with-subsequent-stimulation-2
-6. "It came out from a pretrained net" by Bob L. Sturm + folk-rnn (v2) (2016) https://highnoongmt.wordpress.com/2016/12/24/taking-a-christmas-carol-toward-the-dodecaphonic-by-derp-learning/
+6. "Why are you and your 6 million parameters so hard to understand?" by folk-rnn (v2) and Bob L. Sturm (2018) https://soundcloud.com/sturmen-1/why-are-you-and-your-6-million-parameters-so-hard-to-understand, https://soundcloud.com/sturmen-1/why-are-you-and-your-6-million-parameters-so-hard-to-understand-slow-flute
+6. "Two Burner Brew No. 1" by folk-rnn (v2) and Bob L. Sturm and Carla Sturm (2018) https://soundcloud.com/sturmen-1/two-burner-brew-no-1
+6. "A Windy Canal" by folk-rnn (v2) and Bob L. Sturm (2018) https://soundcloud.com/sturmen-1/a-windy-canal
+7. "Experimental lobotomy of a deep network with subsequent stimulation (2)" by folk-rnn (v2 with lobotomy) and Bob L. Sturm, Carla Sturm (2018) https://soundcloud.com/sturmen-1/experimental-lobotomy-of-a-deep-network-with-subsequent-stimulation-2
 6. "The Millennial Whoop Reel" by Bob L. Sturm + folk-rnn (v2) (2016) https://highnoongmt.wordpress.com/2016/08/29/millennial-whoop-with-derp-learning-a-reel/
 6. "The Millennial Whoop Jig" by Bob L. Sturm + folk-rnn (v2) (2016) https://highnoongmt.wordpress.com/2016/08/28/millennial-whoop-with-derp-learning/
 6. "Eight Short Outputs ..." by folk-rnn (v1) + Bob L. Sturm (2015) https://highnoongmt.wordpress.com/2015/12/20/eight-short-outputs-now-on-youtube/
+6. "Carol of the Cells" by Bob L. Sturm + folk-rnn (v2) (2017) https://highnoongmt.wordpress.com/2017/12/16/carol-of-the-cells-from-the-ai-to-the-orchestra/
+6. "It came out from a pretrained net" by Bob L. Sturm + folk-rnn (v2) (2016) https://highnoongmt.wordpress.com/2016/12/24/taking-a-christmas-carol-toward-the-dodecaphonic-by-derp-learning/
 7. “We three layers o’ hidd’n units are” by Bob L. Sturm + folk-rnn (v2) (2015) https://highnoongmt.wordpress.com/2015/12/16/tis-the-season-for-some-deep-carols/
 8. "The March of Deep Learning" by Bob L. Sturm + folk-rnn (v1) (2015) https://highnoongmt.wordpress.com/2015/08/15/deep-learning-for-assisting-the-process-of-music-composition-part-4/
 
