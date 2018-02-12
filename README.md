@@ -61,6 +61,7 @@ This code was used for the following published works:
 6. "Why are you and your 6 million parameters so hard to understand?" by folk-rnn (v2) and Bob L. Sturm (2018) https://highnoongmt.wordpress.com/2018/01/21/making-sense-of-the-folk-rnn-v2-model-part-8/
 6. "Two Burner Brew No. 1" by folk-rnn (v2) and Bob L. Sturm and Carla Sturm (2018) https://soundcloud.com/sturmen-1/two-burner-brew-no-1
 6. "A Windy Canal" by folk-rnn (v2) and Bob L. Sturm (2018) https://highnoongmt.wordpress.com/2018/01/11/making-sense-of-the-folk-rnn-v2-model-part-6/
+7. "Swing Swang Swung" by folk-rnn (v2) and Bob L. Sturm (2018) https://youtu.be/Y_DBRg6SK7E (analysis here: https://highnoongmt.wordpress.com/2018/01/03/making-sense-of-the-folk-rnn-v2-model-part-5/ )
 7. "Experimental lobotomy of a deep network with subsequent stimulation (2)" by folk-rnn (v2 with lobotomy) and Bob L. Sturm, Carla Sturm (2018) https://highnoongmt.wordpress.com/2018/01/13/making-sense-of-the-folk-rnn-v2-model-part-7/
 6. "The Millennial Whoop Reel" by Bob L. Sturm + folk-rnn (v2) (2016) https://highnoongmt.wordpress.com/2016/08/29/millennial-whoop-with-derp-learning-a-reel/
 6. "The Millennial Whoop Jig" by Bob L. Sturm + folk-rnn (v2) (2016) https://highnoongmt.wordpress.com/2016/08/28/millennial-whoop-with-derp-learning/
