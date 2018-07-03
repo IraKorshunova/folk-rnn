@@ -19,7 +19,7 @@ This code was used for the following published works:
 1. "Bastard Tunes" by Oded Ben-Tal + folk-rnn (v2) (2017) https://www.youtube.com/playlist?list=PLdTpPwVfxuXpQ03F398HH463SAE0vR2X8
 1. "Safe Houses" by Úna Monaghan + folk-rnn (v2) (for concertina and tape, 2017) https://youtu.be/x6LS9MbQj7Y
 1. "Interpretations of Computer-Generated Traditional Music" by John Hughes + folk-rnn (v2) (for double bass, 2017) https://youtu.be/GmwYtNgHW4g
-1. "Dialogues with folk-rnn" by Luca Tuchet + folk-rnn (v2) (for smart mandolin, 2017) https://youtu.be/pkf3VqPieoo
+1. "Dialogues with folk-rnn" by Luca Tuchet + folk-rnn (v2) (for smart mandolin, 2017) https://youtu.be/pkf3VqPieoo; at NIME 2018 https://youtu.be/VmJdLqejb-E
 1. "The Fortootuise Pollo" by Bob L. Sturm + folk-rnn (v1) (2017) https://soundcloud.com/sturmen-1/the-fortootuise-pollo-1
 3. "March to the Mainframe" by Bob L. Sturm + folk-rnn (v2) (2017) Performed by Ensemble x.y: https://youtu.be/TLzBcMvl15M?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o Performed by Ensemble Volans: https://soundcloud.com/sturmen-1/march-to-the-mainframe-by-bob-l-sturm-folk-rnn-v2 Score is here: https://highnoongmt.files.wordpress.com/2017/12/twoshortpieceswithaninterlude.pdf
 4. "Interlude" by Bob L. Sturm + folk-rnn (v2) (2017) Performed by Ensemble x.y: https://youtu.be/NZ08dDdYh3U?list=PLdTpPwVfxuXrdOyjtwfokrpzfpIlnJc5o Performed by Ensemble Volans: https://soundcloud.com/sturmen-1/interlude-by-bob-l-sturm-folk-rnn-v2 (synthesized version: https://soundcloud.com/sturmen-1/interlude-synthesised) Score is here: https://highnoongmt.files.wordpress.com/2017/12/twoshortpieceswithaninterlude.pdf
