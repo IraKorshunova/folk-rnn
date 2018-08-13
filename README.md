@@ -2,6 +2,10 @@
 
 # Folk music style modelling using LSTMs
 
+See the following websites:
+1. [folkrnn.org](https://folkrnn.org/)
+2. [The Machine Folk Session](https://themachinefolksession.org/)
+
 This code was used for the following published works:
 
 1. Sturm and Ben-Tal, ["Taking the Models back to Music Practice: Evaluating Generative Transcription Models built using Deep Learning,”](http://jcms.org.uk/issues/Vol2Issue1/taking-models-back-to-music-practice/article.html) J. Creative Music Systems, Vol. 2, No. 1, Sep. 2017.
