@@ -3,10 +3,14 @@
 # Folk music style modelling using LSTMs
 
 See the following websites:
+
+3. [Let's Have Another Gan Ainm](https://soundcloud.com/oconaillfamilyandfriends)
 1. [folkrnn.org](https://folkrnn.org/)
 2. [The Machine Folk Session](https://themachinefolksession.org/)
 
 This code was used for the following published works:
+
+1. Sturm and Ben-Tal, ["Let’s Have Another Gan Ainm: An experimental album of Irish traditional music and computer-generated tunes"](http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1248565&dswid=-8707)
 
 1. Sturm, Ben-Tal, Monaghan, Collins, Herremans, Chew, Hadjeres, Deruty and Pachet, [“Machine learning research that matters for music creation: A case study,”](https://www.tandfonline.com/doi/full/10.1080/09298215.2018.1515233) J. New Music Research (in press), 2018.
 
