@@ -4,7 +4,7 @@
 
 See the following websites:
 
-3. [Let's Have Another Gan Ainm](https://soundcloud.com/oconaillfamilyandfriends)
+3. [Let's Have Another Gan Ainm](https://soundcloud.com/oconaillfamilyandfriends) (music album)
 1. [folkrnn.org](https://folkrnn.org/)
 2. [The Machine Folk Session](https://themachinefolksession.org/)
 
