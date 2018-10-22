@@ -8,6 +8,8 @@ See the following websites:
 
 This code was used for the following published works:
 
+1. Sturm, Ben-Tal, Monaghan, Collins, Herremans, Chew, Hadjeres, Deruty and Pachet, [“Machine learning research that matters for music creation: A case study,”](https://www.tandfonline.com/doi/full/10.1080/09298215.2018.1515233) J. New Music Research (in press), 2018.
+
 1. Sturm and Ben-Tal, ["Taking the Models back to Music Practice: Evaluating Generative Transcription Models built using Deep Learning,”](http://jcms.org.uk/issues/Vol2Issue1/taking-models-back-to-music-practice/article.html) J. Creative Music Systems, Vol. 2, No. 1, Sep. 2017.
 
 1. Sturm, Santos, Ben-Tal and Korshunova, "[Music transcription modelling and composition using deep learning](https://arxiv.org/pdf/1604.08723)", in Proc. [1st Conf. Computer Simulation of Musical Creativity](https://csmc2016.wordpress.com), Huddersfield, UK, July 2016.
@@ -77,6 +79,7 @@ This code was used for the following published works:
 
 # Media
 1. March 31 2017, ‘Machine folk’ music composed by AI shows technology’s creative side, The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
+1. Sep. 2018, AI created more than 100,000 pieces of music after analyzing Irish and English folk tunes, [KTH research news](https://www.kth.se/en/forskning/artiklar/ai-created-more-than-100-000-pieces-of-music-after-analyzing-irish-and-english-folk-tunes-1.845897)
 1. May 2018, "No humans required? If computers can be taught to compose creatively, what does that mean for the future of music?", BBC Music Magazine, Alex Marshal
 5. Feb. 28 2018, "Is music about to have its first AI No.1?" https://www.bbc.co.uk/music/articles/0c3dc8f7-4853-4379-b0d5-62175d33d557
 2. Dec. 23 2017 "AI Has Been Creating Music and the Results Are...Weird" PC Mag (http://uk.pcmag.com/news/92577/ai-has-been-creating-music-and-the-results-areweird)
