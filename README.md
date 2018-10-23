@@ -84,6 +84,8 @@ This code was used for the following published works:
 # Media
 1. March 31 2017, ‘Machine folk’ music composed by AI shows technology’s creative side, The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
 1. Sep. 2018, AI created more than 100,000 pieces of music after analyzing Irish and English folk tunes, [KTH research news](https://www.kth.se/en/forskning/artiklar/ai-created-more-than-100-000-pieces-of-music-after-analyzing-irish-and-english-folk-tunes-1.845897)
+2. Sep. 2018, Do computers have musical intelligence?, [Science Node](https://sciencenode.org/feature/AI%20folk%20music.php)
+3. Sep. 2018, AI skapar 100 000 folkmusiklåtar, [Musikindustrin (Sweden)](http://www.musikindustrin.se/2018/10/23/ai-skapar-100-000-folkmusiklatar/)
 1. May 2018, "No humans required? If computers can be taught to compose creatively, what does that mean for the future of music?", BBC Music Magazine, Alex Marshal
 5. Feb. 28 2018, "Is music about to have its first AI No.1?" https://www.bbc.co.uk/music/articles/0c3dc8f7-4853-4379-b0d5-62175d33d557
 2. Dec. 23 2017 "AI Has Been Creating Music and the Results Are...Weird" PC Mag (http://uk.pcmag.com/news/92577/ai-has-been-creating-music-and-the-results-areweird)
