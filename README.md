@@ -14,7 +14,7 @@ This code was used for the following published works:
 
 1. Sturm, Ben-Tal, Monaghan, Collins, Herremans, Chew, Hadjeres, Deruty and Pachet, [“Machine learning research that matters for music creation: A case study,”](https://www.tandfonline.com/doi/full/10.1080/09298215.2018.1515233) J. New Music Research (in press), 2018.
 
-1. Sturm, “What do these 5,599,881 parameters mean? An analysis of a specific LSTM music transcription model, starting with the 70,281 parameters of its softmax layer,” in Proc. Music Metacreation workshop of ICCC, 2018.
+1. Sturm, [“What do these 5,599,881 parameters mean? An analysis of a specific LSTM music transcription model, starting with the 70,281 parameters of its softmax layer,”](http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Akth%3Adiva-238604) in Proc. Music Metacreation workshop of ICCC, 2018.
 
 1. Sturm and Ben-Tal, ["Taking the Models back to Music Practice: Evaluating Generative Transcription Models built using Deep Learning,”](http://jcms.org.uk/issues/Vol2Issue1/taking-models-back-to-music-practice/article.html) J. Creative Music Systems, Vol. 2, No. 1, Sep. 2017.
 
