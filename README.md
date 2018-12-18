@@ -84,12 +84,13 @@ This code was used for the following published works:
 8. "The March of Deep Learning" by Bob L. Sturm + folk-rnn (v1) (2015) https://highnoongmt.wordpress.com/2015/08/15/deep-learning-for-assisting-the-process-of-music-composition-part-4/
 
 # Media
-1. March 31 2017, ‘Machine folk’ music composed by AI shows technology’s creative side, The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
-1. Dec. 17 2018, The musical geniuses that cannot hear, [BBC Future](http://www.bbc.com/future/story/20181217-the-musical-geniuses-that-cannot-hear)
-1. Sep. 2018, AI created more than 100,000 pieces of music after analyzing Irish and English folk tunes, [KTH research news](https://www.kth.se/en/forskning/artiklar/ai-created-more-than-100-000-pieces-of-music-after-analyzing-irish-and-english-folk-tunes-1.845897)
-1. Nov. 2 2018, Så har en artificiell intelligens skapat 100.000 folkmusiklåtar, Dagens Nyheter, https://www.dn.se/kultur-noje/sa-har-en-artificiell-intelligens-skapat-100000-folkmusiklatar/
-2. Sep. 2018, Do computers have musical intelligence?, [Science Node](https://sciencenode.org/feature/AI%20folk%20music.php)
-3. Sep. 2018, AI skapar 100 000 folkmusiklåtar, [Musikindustrin (Sweden)](http://www.musikindustrin.se/2018/10/23/ai-skapar-100-000-folkmusiklatar/)
+1. March 31 2017, "‘Machine folk’ music composed by AI shows technology’s creative side", The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
+1. Dec. 18 2018, "The musical geniuses that cannot hear", [BBC Future](http://www.bbc.com/future/story/20181217-the-musical-geniuses-that-cannot-hear)
+2. Dec. 18 2018, "These AI startups are creating chart-worthy music with algorithms" [TechWorld](https://www.techworld.com/tech-innovation/these-ai-startups-are-creating-chart-worthy-music-with-algorithms-3689580/)
+1. Sep. 2018, A"I created more than 100,000 pieces of music after analyzing Irish and English folk tunes", [KTH research news](https://www.kth.se/en/forskning/artiklar/ai-created-more-than-100-000-pieces-of-music-after-analyzing-irish-and-english-folk-tunes-1.845897)
+1. Nov. 2 2018, "Så har en artificiell intelligens skapat 100.000 folkmusiklåtar", Dagens Nyheter, https://www.dn.se/kultur-noje/sa-har-en-artificiell-intelligens-skapat-100000-folkmusiklatar/
+2. Sep. 2018, "Do computers have musical intelligence?", [Science Node](https://sciencenode.org/feature/AI%20folk%20music.php)
+3. Sep. 2018, "AI skapar 100 000 folkmusiklåtar", [Musikindustrin (Sweden)](http://www.musikindustrin.se/2018/10/23/ai-skapar-100-000-folkmusiklatar/)
 1. May 2018, "No humans required? If computers can be taught to compose creatively, what does that mean for the future of music?", BBC Music Magazine, Alex Marshal
 5. Feb. 28 2018, "Is music about to have its first AI No.1?" https://www.bbc.co.uk/music/articles/0c3dc8f7-4853-4379-b0d5-62175d33d557
 2. Dec. 23 2017 "AI Has Been Creating Music and the Results Are...Weird" PC Mag (http://uk.pcmag.com/news/92577/ai-has-been-creating-music-and-the-results-areweird)
