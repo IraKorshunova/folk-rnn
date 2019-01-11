@@ -88,7 +88,8 @@ This code was used for the following published works:
 1. Dec. 18 2018, "How to make sweet sounding music with a hard drive", [BBC Future](http://www.bbc.com/future/story/20181217-the-musical-geniuses-that-cannot-hear)
 2. Dec. 18 2018, "These AI startups are creating chart-worthy music with algorithms" [TechWorld](https://www.techworld.com/tech-innovation/these-ai-startups-are-creating-chart-worthy-music-with-algorithms-3689580/)
 2. Nov. 25 2018 "Missing Link: Musik ohne Musiker? KI schwingt den Taktstock " [Heise Online](https://www.heise.de/newsticker/meldung/Missing-Link-Musik-ohne-Musiker-KI-schwingt-den-Taktstock-4224798.html)
-1. Sep. 2018, A"I created more than 100,000 pieces of music after analyzing Irish and English folk tunes", [KTH research news](https://www.kth.se/en/forskning/artiklar/ai-created-more-than-100-000-pieces-of-music-after-analyzing-irish-and-english-folk-tunes-1.845897)
+1. Sep. 2018, "AI created more than 100,000 pieces of music after analyzing Irish and English folk tunes", [KTH research news](https://www.kth.se/en/forskning/artiklar/ai-created-more-than-100-000-pieces-of-music-after-analyzing-irish-and-english-folk-tunes-1.845897)
+1. Sep. 25 2017, "Intelligenza artificiale crea più di 100.000 nuovi brani musicali folk" [Notizie scientifiche.it](https://notiziescientifiche.it/intelligenza-artificiale-crea-piu-di-100-000-nuovi-brani-musicali-folk/)
 1. Nov. 2 2018, "Så har en artificiell intelligens skapat 100.000 folkmusiklåtar", Dagens Nyheter, https://www.dn.se/kultur-noje/sa-har-en-artificiell-intelligens-skapat-100000-folkmusiklatar/
 2. Sep. 2018, "Do computers have musical intelligence?", [Science Node](https://sciencenode.org/feature/AI%20folk%20music.php)
 3. Sep. 2018, "AI skapar 100 000 folkmusiklåtar", [Musikindustrin (Sweden)](http://www.musikindustrin.se/2018/10/23/ai-skapar-100-000-folkmusiklatar/)
