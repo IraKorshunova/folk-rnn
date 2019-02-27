@@ -86,6 +86,7 @@ This code was used for the following published works:
 # Media
 1. March 31 2017, "‘Machine folk’ music composed by AI shows technology’s creative side", The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
 2. February 19 2019 BBC Sounds, Science and Stuff, [How music works](https://www.bbc.co.uk/sounds/play/m0002lnh)
+3. February 26 2019 BBC Click, [Bach vs. AI](https://www.bbc.co.uk/sounds/play/p0720zg8)
 1. Dec. 18 2018, "How to make sweet sounding music with a hard drive", [BBC Future](http://www.bbc.com/future/story/20181217-the-musical-geniuses-that-cannot-hear)
 2. Dec. 18 2018, "These AI startups are creating chart-worthy music with algorithms" [TechWorld](https://www.techworld.com/tech-innovation/these-ai-startups-are-creating-chart-worthy-music-with-algorithms-3689580/)
 2. Nov. 25 2018 "Missing Link: Musik ohne Musiker? KI schwingt den Taktstock " [Heise Online](https://www.heise.de/newsticker/meldung/Missing-Link-Musik-ohne-Musiker-KI-schwingt-den-Taktstock-4224798.html)
