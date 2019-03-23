@@ -85,6 +85,7 @@ This code was used for the following published works:
 
 # Media
 1. March 31 2017, "‘Machine folk’ music composed by AI shows technology’s creative side", The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
+3. March 2019 Mother Jones, Clive Thompson, [What Will Happen When Machines Write Songs Just as Well as Your Favorite Musician?](https://www.motherjones.com/media/2019/03/what-will-happen-when-machines-write-songs-just-as-well-as-your-favorite-musician/)
 2. February 19 2019 BBC Sounds, Science and Stuff, [How music works](https://www.bbc.co.uk/sounds/play/m0002lnh)
 3. February 26 2019 BBC Click, [Bach vs. AI](https://www.bbc.co.uk/sounds/play/p0720zg8)
 1. Dec. 18 2018, "How to make sweet sounding music with a hard drive", [BBC Future](http://www.bbc.com/future/story/20181217-the-musical-geniuses-that-cannot-hear)
