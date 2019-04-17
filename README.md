@@ -85,6 +85,8 @@ This code was used for the following published works:
 
 # Media
 1. March 31 2017, "‘Machine folk’ music composed by AI shows technology’s creative side", The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
+2. April 15 2019 The Why Factor, BBC, ["Separating the art from the artist"](https://www.bbc.co.uk/sounds/play/w3csytzb)
+3. April 17 2019 Svergies Radio, Musikguiden P3, ["Artist + AI = evigt liv"](https://sverigesradio.se/sida/avsnitt/1270356?programid=4067)
 3. March 2019 Mother Jones, Clive Thompson, [What Will Happen When Machines Write Songs Just as Well as Your Favorite Musician?](https://www.motherjones.com/media/2019/03/what-will-happen-when-machines-write-songs-just-as-well-as-your-favorite-musician/)
 2. February 19 2019 BBC Sounds, Science and Stuff, [How music works](https://www.bbc.co.uk/sounds/play/m0002lnh)
 3. February 26 2019 BBC Click, [Bach vs. AI](https://www.bbc.co.uk/sounds/play/p0720zg8)
