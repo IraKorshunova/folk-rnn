@@ -14,6 +14,8 @@ This code was used for the following published works:
 
 1. Sturm, Ben-Tal, Monaghan, Collins, Herremans, Chew, Hadjeres, Deruty and Pachet, [“Machine learning research that matters for music creation: A case study,”](https://www.tandfonline.com/doi/full/10.1080/09298215.2018.1515233) J. New Music Research (in press), 2018.
 
+1. Sturm ["How Stuff Works: LSTM Model of Folk Music Transcriptions"](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxmYWltbXVzaWMyMDE4fGd4OjVjYmE2NTllMGEzMjZiM2E), invited presentation Joint Workshop on Machine Learning for Music, 2018.
+
 1. Sturm, [“What do these 5,599,881 parameters mean? An analysis of a specific LSTM music transcription model, starting with the 70,281 parameters of its softmax layer,”](http://urn.kb.se/resolve?urn=urn%3Anbn%3Ase%3Akth%3Adiva-238604) in Proc. Music Metacreation workshop of ICCC, 2018.
 
 1. Sturm and Ben-Tal, ["Taking the Models back to Music Practice: Evaluating Generative Transcription Models built using Deep Learning,”](https://www.jcms.org.uk/article/id/517/) J. Creative Music Systems, Vol. 2, No. 1, Sep. 2017.
@@ -84,7 +86,7 @@ This code was used for the following published works:
 8. "The March of Deep Learning" by Bob L. Sturm + folk-rnn (v1) (2015) https://highnoongmt.wordpress.com/2015/08/15/deep-learning-for-assisting-the-process-of-music-composition-part-4/
 
 # Media
-1. March 31 2017, "‘Machine folk’ music composed by AI shows technology’s creative side", The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
+1. June 20 2019, The Sound of AI, ["Folk the algorithms: traditional music in AI music research"](https://medium.com/the-sound-of-ai/folk-the-algorithms-traditional-music-in-ai-music-research-b19bf392d991)
 2. April 15 2019 The Why Factor, BBC, ["Separating the art from the artist"](https://www.bbc.co.uk/sounds/play/w3csytzb)
 3. April 17 2019 Svergies Radio, Musikguiden P3, ["Artist + AI = evigt liv"](https://sverigesradio.se/sida/avsnitt/1270356?programid=4067)
 3. March 2019 Mother Jones, Clive Thompson, [What Will Happen When Machines Write Songs Just as Well as Your Favorite Musician?](https://www.motherjones.com/media/2019/03/what-will-happen-when-machines-write-songs-just-as-well-as-your-favorite-musician/)
@@ -93,15 +95,16 @@ This code was used for the following published works:
 1. Dec. 18 2018, "How to make sweet sounding music with a hard drive", [BBC Future](http://www.bbc.com/future/story/20181217-the-musical-geniuses-that-cannot-hear)
 2. Dec. 18 2018, "These AI startups are creating chart-worthy music with algorithms" [TechWorld](https://www.techworld.com/tech-innovation/these-ai-startups-are-creating-chart-worthy-music-with-algorithms-3689580/)
 2. Nov. 25 2018 "Missing Link: Musik ohne Musiker? KI schwingt den Taktstock " [Heise Online](https://www.heise.de/newsticker/meldung/Missing-Link-Musik-ohne-Musiker-KI-schwingt-den-Taktstock-4224798.html)
-1. Sep. 2018, "AI created more than 100,000 pieces of music after analyzing Irish and English folk tunes", [KTH research news](https://www.kth.se/en/forskning/artiklar/ai-created-more-than-100-000-pieces-of-music-after-analyzing-irish-and-english-folk-tunes-1.845897)
-1. Sep. 25 2017, "Intelligenza artificiale crea più di 100.000 nuovi brani musicali folk" [Notizie scientifiche.it](https://notiziescientifiche.it/intelligenza-artificiale-crea-piu-di-100-000-nuovi-brani-musicali-folk/)
 1. Nov. 2 2018, "Så har en artificiell intelligens skapat 100.000 folkmusiklåtar", Dagens Nyheter, https://www.dn.se/kultur-noje/sa-har-en-artificiell-intelligens-skapat-100000-folkmusiklatar/
+1. Sep. 2018, "AI created more than 100,000 pieces of music after analyzing Irish and English folk tunes", [KTH research news](https://www.kth.se/en/forskning/artiklar/ai-created-more-than-100-000-pieces-of-music-after-analyzing-irish-and-english-folk-tunes-1.845897)
 2. Sep. 2018, "Do computers have musical intelligence?", [Science Node](https://sciencenode.org/feature/AI%20folk%20music.php)
 3. Sep. 2018, "AI skapar 100 000 folkmusiklåtar", [Musikindustrin (Sweden)](http://www.musikindustrin.se/2018/10/23/ai-skapar-100-000-folkmusiklatar/)
 1. May 2018, "No humans required? If computers can be taught to compose creatively, what does that mean for the future of music?", BBC Music Magazine, Alex Marshal
 5. Feb. 28 2018, "Is music about to have its first AI No.1?" https://www.bbc.co.uk/music/articles/0c3dc8f7-4853-4379-b0d5-62175d33d557
 2. Dec. 23 2017 "AI Has Been Creating Music and the Results Are...Weird" PC Mag (http://uk.pcmag.com/news/92577/ai-has-been-creating-music-and-the-results-areweird)
 2. Nov. 18, 2017 Le Tube avec Stéphane Bern et Laurence Bloch, France https://www.youtube.com/watch?v=LQQER9479Xk
+1. Sep. 25 2017, "Intelligenza artificiale crea più di 100.000 nuovi brani musicali folk" [Notizie scientifiche.it](https://notiziescientifiche.it/intelligenza-artificiale-crea-piu-di-100-000-nuovi-brani-musicali-folk/)
+1. March 31 2017, "‘Machine folk’ music composed by AI shows technology’s creative side", The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
 2. June 3 2017, "An A.I. in London is Writing Its Own Music and It Sounds Heavenly" https://www.inverse.com/article/32276-folk-music-ai-folk-rnn-musician-s-best-friend
 2. June 8 2017, "Computer program created to write Irish trad tunes" http://www.irishtimes.com/business/technology/computer-program-created-to-write-irish-trad-tunes-1.3112238
 3. June 19 2017 "Folk-RNN is the Loquantur Rhythm artist of June" (providing music for phone call waits) https://zc1.campaign-view.com/ua/SharedView?od=11287eca6b3187&cno=11a2b0b20c9c037&cd=12a539b2f47976f3&m=4 (Here is a sample: https://highnoongmt.wordpress.com/2017/06/17/deep-learning-on-hold/)
