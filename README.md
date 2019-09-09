@@ -30,6 +30,7 @@ This code was used for the following published works:
 
 # Music compositions resulting from versions of this code:
 
+1. Laura Agnusdei and guest perform some output of folkrnn at the 2019 ReWire festival https://www.thoughtsource.org/vimeo_tab/app/tab/view_video?fbPageId=109823292380435&page=1&videoId=345886314 
 1. "Bastard Tunes" by Oded Ben-Tal + folk-rnn (v2) (2017) https://www.youtube.com/playlist?list=PLdTpPwVfxuXpQ03F398HH463SAE0vR2X8
 1. "Safe Houses" by Úna Monaghan + folk-rnn (v2) (for concertina and tape, 2017) https://youtu.be/x6LS9MbQj7Y
 1. "Interpretations of Computer-Generated Traditional Music" by John Hughes + folk-rnn (v2) (for double bass, 2017) https://youtu.be/GmwYtNgHW4g
