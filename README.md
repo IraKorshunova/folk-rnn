@@ -10,6 +10,8 @@ See the following websites:
 
 This code was used for the following published works:
 
+1. Sturm and Ben-Tal, ["Folk the algorithms: traditional music in AI music research"](https://medium.com/the-sound-of-ai/folk-the-algorithms-traditional-music-in-ai-music-research-b19bf392d991), The Sound of AI (Medium)
+
 1. Sturm and Ben-Tal, ["Let’s Have Another Gan Ainm: An experimental album of Irish traditional music and computer-generated tunes"](http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1248565&dswid=-8707)
 
 1. Sturm, Ben-Tal, Monaghan, Collins, Herremans, Chew, Hadjeres, Deruty and Pachet, [“Machine learning research that matters for music creation: A case study,”](https://www.tandfonline.com/doi/full/10.1080/09298215.2018.1515233) J. New Music Research 48(1):36-55, 2018.
@@ -89,7 +91,6 @@ This code was used for the following published works:
 
 # Media
 1. July 2 2019, "Deep learner generated Irish folk music", Bruce Sterling [Wired](https://www.wired.com/beyond-the-beyond/2019/07/deep-learner-generated-irish-folk-music/)
-1. June 20 2019, The Sound of AI (Medium), ["Folk the algorithms: traditional music in AI music research"](https://medium.com/the-sound-of-ai/folk-the-algorithms-traditional-music-in-ai-music-research-b19bf392d991)
 2. April 15 2019 The Why Factor, BBC, ["Separating the art from the artist"](https://www.bbc.co.uk/sounds/play/w3csytzb)
 3. April 17 2019 Svergies Radio, Musikguiden P3, ["Artist + AI = evigt liv"](https://sverigesradio.se/sida/avsnitt/1270356?programid=4067)
 3. March 2019 Mother Jones, Clive Thompson, [What Will Happen When Machines Write Songs Just as Well as Your Favorite Musician?](https://www.motherjones.com/media/2019/03/what-will-happen-when-machines-write-songs-just-as-well-as-your-favorite-musician/)
