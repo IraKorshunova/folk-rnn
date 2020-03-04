@@ -22,7 +22,11 @@ cd folk-rnn
 
 Then to generate using one of the pretrained models:
 ~~~~
-python sample_rnn.py --terminal metadata/config5-wrepeats-20160112-222521.pkl
+python sample_rnn.py --terminal metadata/folkrnn_v2.pkl
+~~~~
+
+~~~~
+python train_rnn.py config5 data/v2_data
 ~~~~
 
 This code was used for the following published works:
