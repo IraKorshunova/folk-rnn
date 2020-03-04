@@ -14,7 +14,7 @@ from lasagne.layers import *
 from data_iter import DataIterator
 
 print theano.config.floatX
-theano.config.warn_float64 = 'raise'
+#theano.config.warn_float64 = 'raise'
 
 if len(sys.argv) < 3:
     sys.exit("Usage: train_rnn.py <configuration_name> <train data filename>")
@@ -65,7 +65,7 @@ nvalid_tunes = config.batch_size * max(1, np.rint(
     nvalid_tunes / float(config.batch_size)))  # round to the multiple of batch_size
 
 rng = np.random.RandomState(42)
-valid_idxs = rng.choice(np.arange(ntunes), nvalid_tunes, replace=False)
+valid_idxs = rng.choice(np.arange(ntunes), int(nvalid_tunes), replace=False)
 
 ntrain_tunes = ntunes - nvalid_tunes
 train_idxs = np.delete(np.arange(ntunes), valid_idxs)
