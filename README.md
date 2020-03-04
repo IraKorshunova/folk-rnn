@@ -8,9 +8,7 @@ See the following websites:
 1. [folkrnn.org](https://folkrnn.org/)
 2. [The Machine Folk Session](https://themachinefolksession.org/)
 
-How to use this.
-
-Using conda, I did the following:
+Using conda, do the following:
 
 ~~~~
 conda create --name py2 python=2.7
@@ -25,6 +23,7 @@ Then to generate using one of the pretrained models:
 python sample_rnn.py --terminal metadata/folkrnn_v2.pkl
 ~~~~
 
+To train a new model:
 ~~~~
 python train_rnn.py config5 data/v2_data
 ~~~~
