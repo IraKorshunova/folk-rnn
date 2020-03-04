@@ -12,4 +12,4 @@ This is the data we have used.
 
 4. data_v3: This is version 3 of the dataset from thesession.org. In this version, we transpose all tunes to have the root C, transpose them all to have the root C#, remove the titles, and make new mode tokens, K:maj, K:min, K:dor, and K:mix. There are over 46,000 transcriptions here. Created folk-rnn (v3).
 
-4. midi.tgz: This is a dataset of MIDI files created from the ABC transcriptions in the file, "temp.txt". See buildset.sh for details. This comes from allabcwrepeats_parsed_wot.
+4. midi.tgz: This is a dataset of MIDI files created from the ABC transcriptions in data_v2.
