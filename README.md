@@ -8,6 +8,23 @@ See the following websites:
 1. [folkrnn.org](https://folkrnn.org/)
 2. [The Machine Folk Session](https://themachinefolksession.org/)
 
+How to use this.
+
+Using conda, I did the following:
+
+~~~~
+conda create --name py2 python=2.7
+pip install --upgrade https://github.com/Theano/Theano/archive/master.zip
+pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip
+git clone https://github.com/IraKorshunova/folk-rnn.git
+cd folk-rnn
+~~~~
+
+Then to generate using one of the pretrained models:
+~~~~
+python sample_rnn.py --terminal metadata/config5-wrepeats-20160112-222521.pkl
+~~~~
+
 This code was used for the following published works:
 
 1. Sturm and Ben-Tal, ["Folk the algorithms: traditional music in AI music research"](https://medium.com/the-sound-of-ai/folk-the-algorithms-traditional-music-in-ai-music-research-b19bf392d991), The Sound of AI (Medium)
