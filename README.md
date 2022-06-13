@@ -11,7 +11,9 @@ See the following websites:
 Using conda, do the following:
 
 ~~~~
-conda create --name py2 python=2.7
+conda create --name folk-rnn python=2.7
+conda activate folk-rnn
+conda install mkl-service
 pip install --upgrade https://github.com/Theano/Theano/archive/master.zip
 pip install --upgrade https://github.com/Lasagne/Lasagne/archive/master.zip
 git clone https://github.com/IraKorshunova/folk-rnn.git
@@ -25,7 +27,7 @@ python sample_rnn.py --terminal metadata/folkrnn_v2.pkl
 
 To train a new model:
 ~~~~
-python train_rnn.py config5 data/v2_data
+python train_rnn.py config5 data/data_v2
 ~~~~
 
 This code was used for the following published works:
@@ -48,12 +50,12 @@ This code was used for the following published works:
 
 4. The folk-rnn v1, v2 and v3 Session Books https://highnoongmt.wordpress.com/2018/01/05/volumes-1-20-of-folk-rnn-v1-transcriptions/
 
-11. 47,000+ tunes at The Endless folk-rnn Traditional Music Session http://www.eecs.qmul.ac.uk/~sturm/research/RNNIrishTrad/index.html 
+11. 47,000+ tunes at The Endless folk-rnn Traditional Music Session http://www.eecs.qmul.ac.uk/~sturm/research/RNNIrishTrad/index.html
 
 # Music compositions resulting from versions of this code:
 
 1. "Cloudberry Lane" by Zoë Gorman + folk-rnn (2019) https://youtu.be/6-XDhZ_AVGQ
-1. Laura Agnusdei and guest perform some output of folkrnn at the 2019 ReWire festival https://www.thoughtsource.org/vimeo_tab/app/tab/view_video?fbPageId=109823292380435&page=1&videoId=345886314 
+1. Laura Agnusdei and guest perform some output of folkrnn at the 2019 ReWire festival https://www.thoughtsource.org/vimeo_tab/app/tab/view_video?fbPageId=109823292380435&page=1&videoId=345886314
 1. "Bastard Tunes" by Oded Ben-Tal + folk-rnn (v2) (2017) https://www.youtube.com/playlist?list=PLdTpPwVfxuXpQ03F398HH463SAE0vR2X8
 1. "Safe Houses" by Úna Monaghan + folk-rnn (v2) (for concertina and tape, 2017) https://youtu.be/x6LS9MbQj7Y
 1. "Interpretations of Computer-Generated Traditional Music" by John Hughes + folk-rnn (v2) (for double bass, 2017) https://youtu.be/GmwYtNgHW4g
@@ -134,5 +136,5 @@ This code was used for the following published works:
 3. June 18 2017, "Real Musicians Evaluate Music Made by Artificial Intelligence" https://motherboard.vice.com/en_us/article/irish-folk-music-ai
 4. June 1 2017, "Can an AI Machine Hold Copyright Protection Over Its Work?" https://artlawjournal.com/ai-machine-copyright/
 2. May 26 2017 The Daily Mail named our project "Bot Dylan" (http://www.dailymail.co.uk/sciencetech/article-4544400/Researchers-create-computer-writes-folk-music.html), and then didn't even link to this page. Plus the video they edited has no computer-generated music in it. Well done!
-2. April 13 2017 “Eine Maschine meistert traditionelle Folk-Music” http://www.srf.ch/kultur/netzwelt/eine-maschine-meistert-traditionelle-folk-music 
+2. April 13 2017 “Eine Maschine meistert traditionelle Folk-Music” http://www.srf.ch/kultur/netzwelt/eine-maschine-meistert-traditionelle-folk-music
 1. March 31 2017, "‘Machine folk’ music composed by AI shows technology’s creative side", The Conversation (https://theconversation.com/machine-folk-music-composed-by-ai-shows-technologys-creative-side-74708)
